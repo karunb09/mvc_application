@@ -30,9 +30,11 @@ Page 4:  Product
 
 -Sonam Gadekari—Order, OrderLineItem
 
--Karun Bourishetty—OrderLineItem, Order
+-Karun Bourishetty—OrderLineItem
 
 -Hyndavi Mumsipatla-Customer
+
+-Jeevan Sai Subhash Veramachaneni-Product
 
 
 
