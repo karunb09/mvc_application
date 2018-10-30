@@ -1,0 +1,26 @@
+{
+    "name": "onlineorder",
+    "version": "0.0.1",
+    "description": "Example resume website",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "body-parser": "latest",
+        "ejs": "^2.6.1",
+        "express": "latest",
+        "morgan": "latest",
+        "nconf": "latest",
+        "nodemailer": "latest",
+        "nodemailer-mailgun-transport": "latest",
+        "mailgun-js": "latest"
+    },
+    "author": "Denise Case",
+    "homepage": "https://github.com/profcase/a03",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/profcase/a03"
+    },
+    "license": "Apache-2.0"
+}
