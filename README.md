@@ -26,6 +26,16 @@ Page 2:  Online
 Page 3:  OrderOnlineItem
 Page 4:  Product
 
+##Group Members:
+
+-Sonam Gadekari—Order, OrderLineItem
+
+-Karun Bourishetty—OrderLineItem, Order
+
+
+
+
+
 ## Install Nodemon Globally
 
 In your new project folder, right-click and "Open Command Window Here as Administrator". Install nodemon globally to enable live updates.
