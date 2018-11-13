@@ -1,0 +1,29 @@
+[
+    {
+      "_orderid": 100,
+      "ordername": "Chicken Biriyani",
+      "orderdate": "1/1/2018",
+      "shippingAdress": "H.No:78-110,Krishna Nagar",
+      "deliveryDetails": "Jubiliant foods",
+      "_productID":"1",
+	  "cashOnDelivery": 600.00
+    },
+    {
+      "_orderid": 101,
+      "ordername": "Mutton Biriyani",
+      "orderdate": "1/1/2018",
+      "shippingAdress": "H.No:78-110,Krishna Nagar",
+      "deliveryDetails": "Jubiliant foods",
+      "_productID":"2",
+	  "cashOnDelivery": 600.00
+    },
+	  {
+      "_orderid": 102,
+      "ordername": "Fish Fry",
+      "orderdate": "1/1/2018",
+      "shippingAdress": "H.No:78-110,Krishna Nagar",
+      "deliveryDetails": "Jubiliant foods",
+      "_productID":"3",
+	  "cashOnDelivery": 600.00
+    }
+]
