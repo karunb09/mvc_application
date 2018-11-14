@@ -5,7 +5,7 @@
       "productDescription": "Chicken-Biryani is Hyderabad`s Favourite Dish",
       "price": 600,
       "productCategory": "Indian-Cuisine",
-      "sellerId":"1"
+      "sellerId":1
     },
     {
         "_productid": 2,
@@ -13,7 +13,7 @@
         "productDescription": "Pasta is one of the most tastiest food in Italian Cuisine",
         "price": 300,
         "productCategory": "Italian-Cuisine",
-        "sellerId":"2"
+        "sellerId":2
       },
       {
         "_productid": 3,
@@ -21,7 +21,7 @@
         "productDescription": "A patty is places between two breadpieces.",
         "price": 50,
         "productCategory": "Fast-Food",
-        "sellerId":"3"
+        "sellerId":3
       },
       {
         "_productid": 4,
@@ -29,7 +29,7 @@
         "productDescription": "Grated Potato fried, and garnished with salt and peper",
         "price": 10,
         "productCategory": "Snacks",
-        "sellerId":"4"
+        "sellerId":4
       },
       {
         "_productid": 5,
@@ -37,6 +37,6 @@
         "productDescription": "Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli",
         "price": 150,
         "productCategory": "Chinese-Food",
-        "sellerId":"5"
+        "sellerId":5
       }
 ]

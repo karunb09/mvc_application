@@ -1,4 +1,4 @@
-/**
+1/**
  * This schema is basically the Order details of customer.
  * Orders schema gives information about order details of customers such as 
  * order id,name,date,shipping address,delivery details and amount to be paid.

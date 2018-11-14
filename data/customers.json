@@ -1,0 +1,37 @@
+[
+    {
+      "_customerid": 100,
+      "customername":"Hyndavi",
+      "customerAddress": "Hyderabad,India",
+      "customerPhoneNumber": 6605281232,
+      "customerEmail":"hyndavi@gmail.com"
+    },
+    {
+      "_customerid": 101,
+      "customername":"Sonam",
+      "customerAddress": "Delhi,India",
+      "customerPhoneNumber": 6605281320,
+      "customerEmail":"sonam@gmail.com"
+    },
+    {
+      "_customerid": 102,
+      "customername":"karun",
+      "customerAddress": "Hyderabad,Telangana",
+      "customerPhoneNumber": 6605289876,
+      "customerEmail":"karun@gmail.com"
+    },
+    {
+      "_customerid": 103,
+      "customername":"Subash",
+      "customerAddress": "Horizons,Missouri",
+      "customerPhoneNumber": 6605289087,
+      "customerEmail":"Subash@gmail.com"
+    },
+    {
+      "_customerid": 104,
+      "customername":"Pranathi",
+      "customerAddress": "Nizamabad,Telangana",
+      "customerPhoneNumber": 6605282134,
+      "customerEmail":"pranathi@gmail.com"
+    }
+]

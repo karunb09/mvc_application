@@ -25,4 +25,4 @@ const orderLineSchema = new mongoose.Schema({
     default: 1
   }
 })
-module.exports = mongoose.model('orderLine', orderLineSchema)
+module.exports = mongoose.model('orderLineItem', orderLineSchema)
