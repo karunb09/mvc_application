@@ -8,14 +8,17 @@ const orderLineSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+
   OrderlineNumber: {
     type: Number,
     required: true
   },
+
   productID: {
     type: String,
     required: true
   },
+  
   quantity: {
     type: Number,
     required: true, 
