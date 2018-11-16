@@ -20,7 +20,7 @@ api.get('/findall', (req, res) => {
     res.setHeader('Content-Type', 'application/json')
     const id = parseInt(req.params.id, 10)  // for bases 10 values
     const data = req.app.locals.orderLineItem.query
-    const item = find(data, { _id: id })
+    const item = find(data, { orderID: id })
     if (!item) { return res.end(notfoundstring) }
     res.send(JSON.stringify(item))
   })

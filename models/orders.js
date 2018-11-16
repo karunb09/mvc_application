@@ -29,7 +29,7 @@ const OrdersSchema = new mongoose.Schema({
     required: false,
     default: 'ABC delivery Company,Executive: Ram'
   },
-  _productID: { type: Schema.Types.ObjectId, ref: 'Product' }, 
+  //_productID: { type: OrdersSchema.Types.ObjectId, ref: 'Product' }, 
   cashOnDelivery: {
     type: Number,
     required: true,

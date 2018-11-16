@@ -6,7 +6,7 @@
 
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/order.js')
+const Model = require('../models/orders.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
@@ -85,7 +85,7 @@ api.post('/save', (req, res) => {
   LOG.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id, 10) // base 10
     return res.redirect('/order')
-  }
+  
 })
 
 // GET /details/:id
