@@ -1,0 +1,60 @@
+2018-11-16T00:58:36.813Z - info: Environment variables loaded.
+2018-11-16T00:58:36.855Z - info: START seeder.
+2018-11-16T00:58:36.863Z - debug: 5 products seeded
+2018-11-16T00:58:36.863Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:58:36.867Z - debug: 5 orders seeded
+2018-11-16T00:58:36.867Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:58:36.871Z - debug: 5 customers seeded
+2018-11-16T00:58:36.871Z - info: END Seeder. Sample data read and verified.
+2018-11-16T00:58:36.874Z - debug: 4 orderLine seeded
+2018-11-16T00:58:36.874Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:06:41.504Z - info: Environment variables loaded.
+2018-11-16T01:06:41.546Z - info: START seeder.
+2018-11-16T01:06:41.550Z - debug: 5 products seeded
+2018-11-16T01:06:41.550Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:06:41.553Z - debug: 5 orders seeded
+2018-11-16T01:06:41.553Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:06:41.557Z - debug: 5 customers seeded
+2018-11-16T01:06:41.557Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:06:41.559Z - debug: 4 orderLine seeded
+2018-11-16T01:06:41.559Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:53.410Z - info: Environment variables loaded.
+2018-11-16T01:12:53.470Z - info: START seeder.
+2018-11-16T01:12:53.476Z - debug: 5 products seeded
+2018-11-16T01:12:53.476Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:53.481Z - debug: 5 orders seeded
+2018-11-16T01:12:53.481Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:53.485Z - debug: 5 customers seeded
+2018-11-16T01:12:53.485Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:53.488Z - debug: 4 orderLine seeded
+2018-11-16T01:12:53.488Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:59.058Z - info: Environment variables loaded.
+2018-11-16T01:12:59.123Z - info: START seeder.
+2018-11-16T01:12:59.130Z - debug: 5 products seeded
+2018-11-16T01:12:59.130Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:59.133Z - debug: 5 orders seeded
+2018-11-16T01:12:59.133Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:59.137Z - debug: 5 customers seeded
+2018-11-16T01:12:59.137Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:12:59.141Z - debug: 4 orderLine seeded
+2018-11-16T01:12:59.141Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:13:27.232Z - info: Environment variables loaded.
+2018-11-16T01:13:27.275Z - info: START seeder.
+2018-11-16T01:13:27.279Z - debug: 5 products seeded
+2018-11-16T01:13:27.279Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:13:27.281Z - debug: 5 orders seeded
+2018-11-16T01:13:27.281Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:13:27.284Z - debug: 5 customers seeded
+2018-11-16T01:13:27.284Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:13:27.286Z - debug: 4 orderLine seeded
+2018-11-16T01:13:27.286Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:15:50.746Z - info: Environment variables loaded.
+2018-11-16T01:15:50.787Z - info: START seeder.
+2018-11-16T01:15:50.791Z - debug: 5 products seeded
+2018-11-16T01:15:50.791Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:15:50.793Z - debug: 5 orders seeded
+2018-11-16T01:15:50.793Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:15:50.796Z - debug: 5 customers seeded
+2018-11-16T01:15:50.796Z - info: END Seeder. Sample data read and verified.
+2018-11-16T01:15:50.799Z - debug: 4 orderLine seeded
+2018-11-16T01:15:50.799Z - info: END Seeder. Sample data read and verified.
