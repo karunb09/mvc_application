@@ -84,26 +84,10 @@ api.post('/save', (req, res) => {
   const item = new Model()
   LOG.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id, 10) // base 10
-  item.name = req.body.name
-  item.breed = req.body.breed
-  item.age = parseInt(req.body.age, 10)
-  item.parents = []
-  item.parents.length = 0
-  if (req.body.parentName.length > 0) {
-    for (let count = 0; count < req.body.parentName.length; count++) {
-      item.parents.push(
-        {
-          parentName: req.body.parentName[count],
-          parentBreed: req.body.parentBreed,
-          parentAge: parseInt(req.body.parentAge[count], 10)
-        }
-      )
-    }
-    data.push(item)
-    LOG.info(`SAVING NEW order ${JSON.stringify(item)}`)
     return res.redirect('/order')
   }
 })
+
 // GET /details/:id
 api.get('/details/:id', (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
