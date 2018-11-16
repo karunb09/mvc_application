@@ -3,13 +3,13 @@
  * @author Bourishetty, Karun
  */
 const mongoose = require('mongoose')
-const orderLineSchema = new mongoose.Schema({
+const orderLineItemSchema = new mongoose.Schema({
   orderID: {
     type: Number,
     required: true
   },
 
-  OrderlineNumber: {
+  orderlineNumber: {
     type: Number,
     required: true
   },
@@ -25,4 +25,4 @@ const orderLineSchema = new mongoose.Schema({
     default: 1
   }
 })
-module.exports = mongoose.model('orderLineItem', orderLineSchema)
+module.exports = mongoose.model('orderLineItem', orderLineItemSchema)
