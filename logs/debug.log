@@ -2446,3 +2446,856 @@ SyntaxError: Identifier 'id' has already been declared
 2018-11-21T00:08:31.573Z - debug: GET /orderLineItem/details/705
 2018-11-21T00:08:31.573Z - info: Handling GET /details/:id [object Object]
 2018-11-21T00:08:31.574Z - info: RETURNING VIEW FOR {"quantity":1,"_id":"5bf4a138b89d9770e40ee23b","orderID":705,"productName":"softdrinks"}
+2018-11-21T00:15:16.458Z - info: Environment variables loaded.
+2018-11-21T00:15:16.466Z - debug: START routing
+2018-11-21T00:15:16.493Z - debug: END routing
+2018-11-21T00:15:16.493Z - info: Loaded routing.
+2018-11-21T00:15:16.536Z - info: START seeder.
+2018-11-21T00:15:16.541Z - debug: 5 products seeded
+2018-11-21T00:15:16.541Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:15:16.542Z - debug: 5 orders seeded
+2018-11-21T00:15:16.542Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:15:16.546Z - debug: 5 customers seeded
+2018-11-21T00:15:16.546Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:15:16.549Z - debug: 4 orderLineItem seeded
+2018-11-21T00:15:16.549Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:15:21.419Z - debug: GET /
+2018-11-21T00:15:28.095Z - debug: GET /product
+2018-11-21T00:15:29.614Z - debug: GET /customer
+2018-11-21T00:15:37.883Z - debug: GET /order
+2018-11-21T00:15:38.812Z - debug: GET /product
+2018-11-21T00:15:39.744Z - debug: GET /customer
+2018-11-21T00:15:42.587Z - debug: GET /order
+2018-11-21T00:15:43.553Z - debug: GET /product
+2018-11-21T00:15:45.913Z - debug: GET /customer
+2018-11-21T00:15:55.024Z - debug: GET /customer
+2018-11-21T00:15:56.022Z - debug: GET /product
+2018-11-21T00:15:57.052Z - debug: GET /order
+2018-11-21T00:16:00.812Z - debug: GET /customer
+2018-11-21T00:16:02.193Z - debug: GET /order
+2018-11-21T00:16:06.625Z - debug: GET /order
+2018-11-21T00:16:09.378Z - debug: GET /order
+2018-11-21T00:16:10.309Z - debug: GET /product
+2018-11-21T00:16:11.145Z - debug: GET /customer
+2018-11-21T00:18:04.202Z - info: Environment variables loaded.
+2018-11-21T00:18:04.295Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 18:18:04 GMT-0600 (Central Standard Time), pid=391016, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=65359872, heapTotal=62730240, heapUsed=34571256, external=19219389, loadavg=[0, 0, 0], uptime=440851
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T00:18:04.208Z - debug: START routing
+2018-11-21T00:19:17.614Z - info: Environment variables loaded.
+2018-11-21T00:19:17.728Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 18:19:17 GMT-0600 (Central Standard Time), pid=391472, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=64884736, heapTotal=62730240, heapUsed=33725312, external=19095193, loadavg=[0, 0, 0], uptime=440925
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T00:19:17.623Z - debug: START routing
+2018-11-21T00:20:40.724Z - info: Environment variables loaded.
+2018-11-21T00:20:40.815Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 18:20:40 GMT-0600 (Central Standard Time), pid=391372, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=64983040, heapTotal=62730240, heapUsed=34556360, external=19198285, loadavg=[0, 0, 0], uptime=441008
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T00:20:40.731Z - debug: START routing
+2018-11-21T00:21:18.391Z - info: Environment variables loaded.
+2018-11-21T00:21:18.479Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 18:21:18 GMT-0600 (Central Standard Time), pid=391452, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=67719168, heapTotal=61157376, heapUsed=36798960, external=19679759, loadavg=[0, 0, 0], uptime=441045
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T00:21:18.398Z - debug: START routing
+2018-11-21T00:21:45.006Z - info: Environment variables loaded.
+2018-11-21T00:21:45.016Z - debug: START routing
+2018-11-21T00:21:45.046Z - debug: END routing
+2018-11-21T00:21:45.046Z - info: Loaded routing.
+2018-11-21T00:21:45.078Z - info: START seeder.
+2018-11-21T00:21:45.081Z - debug: 5 products seeded
+2018-11-21T00:21:45.081Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:21:45.083Z - debug: 5 orders seeded
+2018-11-21T00:21:45.083Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:21:45.085Z - debug: 5 customers seeded
+2018-11-21T00:21:45.085Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:21:45.086Z - debug: 4 orderLineItem seeded
+2018-11-21T00:21:45.086Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:22:13.330Z - info: Environment variables loaded.
+2018-11-21T00:22:13.338Z - debug: START routing
+2018-11-21T00:22:13.363Z - debug: END routing
+2018-11-21T00:22:13.363Z - info: Loaded routing.
+2018-11-21T00:22:13.397Z - info: START seeder.
+2018-11-21T00:22:13.400Z - debug: 5 products seeded
+2018-11-21T00:22:13.400Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:22:13.402Z - debug: 5 orders seeded
+2018-11-21T00:22:13.402Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:22:13.404Z - debug: 5 customers seeded
+2018-11-21T00:22:13.404Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:22:13.406Z - debug: 4 orderLineItem seeded
+2018-11-21T00:22:13.406Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:22:20.365Z - debug: GET /
+2018-11-21T00:22:22.779Z - debug: GET /order
+2018-11-21T00:22:24.793Z - debug: GET /order
+2018-11-21T00:22:25.718Z - debug: GET /product
+2018-11-21T00:22:26.543Z - debug: GET /customer
+2018-11-21T00:24:14.360Z - debug: GET /order
+2018-11-21T00:24:15.584Z - debug: GET /order
+2018-11-21T00:24:16.284Z - debug: GET /order
+2018-11-21T00:26:15.947Z - debug: GET /customer
+2018-11-21T00:26:19.127Z - debug: GET /customer
+2018-11-21T00:26:20.858Z - debug: GET /product
+2018-11-21T00:26:21.623Z - debug: GET /order
+2018-11-21T00:26:31.281Z - debug: GET /order
+2018-11-21T00:26:32.355Z - debug: GET /product
+2018-11-21T00:26:33.469Z - debug: GET /customer
+2018-11-21T00:26:38.492Z - debug: GET /customer
+2018-11-21T00:28:46.046Z - info: Environment variables loaded.
+2018-11-21T00:28:46.055Z - debug: START routing
+2018-11-21T00:28:46.082Z - debug: END routing
+2018-11-21T00:28:46.082Z - info: Loaded routing.
+2018-11-21T00:28:46.114Z - info: START seeder.
+2018-11-21T00:28:46.117Z - debug: 5 products seeded
+2018-11-21T00:28:46.117Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:28:46.119Z - debug: 5 orders seeded
+2018-11-21T00:28:46.119Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:28:46.121Z - debug: 5 customers seeded
+2018-11-21T00:28:46.121Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:28:46.122Z - debug: 4 orderLineItem seeded
+2018-11-21T00:28:46.122Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:28:51.695Z - debug: GET /
+2018-11-21T00:28:53.915Z - debug: GET /order
+2018-11-21T00:31:13.912Z - debug: GET /orderLineItem
+2018-11-21T00:33:16.329Z - debug: GET /orderLineItem/findone/701
+2018-11-21T00:33:19.225Z - debug: GET /orderLineItem/findone/702
+2018-11-21T00:33:22.150Z - debug: GET /orderLineItem/findone/703
+2018-11-21T00:33:25.190Z - debug: GET /orderLineItem/findone/704
+2018-11-21T00:33:28.919Z - debug: GET /orderLineItem/create
+2018-11-21T00:33:28.919Z - info: Handling GET /create[object Object]
+2018-11-21T00:33:28.923Z - debug: {"quantity":1,"_id":"5bf4a7d84a6e0905067a5e3d"}
+2018-11-21T00:33:39.219Z - debug: POST /orderLineItem/save
+2018-11-21T00:33:39.220Z - info: Handling POST [object Object]
+2018-11-21T00:33:39.220Z - debug: {"orderID":"67","lineNumber":"89","productName":"so","quantity":"1"}
+2018-11-21T00:33:39.221Z - info: NEW ID 67
+2018-11-21T00:33:39.226Z - info: SAVING NEW orderLineItem {"quantity":1,"_id":"5bf4a7e34a6e0905067a5e3e","orderID":67,"productName":"so"}
+2018-11-21T00:33:39.235Z - debug: GET /orderLineItem
+2018-11-21T00:33:44.098Z - debug: GET /orderLineItem/delete/701
+2018-11-21T00:33:44.098Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T00:33:44.099Z - info: RETURNING VIEW FOR {"orderID":701,"lineNumber":1,"productName":"Biryani","quantity":2}
+2018-11-21T00:33:47.626Z - debug: POST /orderLineItem/delete/701
+2018-11-21T00:33:47.627Z - info: Handling DELETE request [object Object]
+2018-11-21T00:33:47.627Z - info: Handling REMOVING ID=701
+2018-11-21T00:33:47.631Z - debug: GET /orderLineItem
+2018-11-21T00:33:50.677Z - debug: GET /orderLineItem/delete/701
+2018-11-21T00:33:50.677Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T00:33:54.133Z - debug: GET /orderLineItem/delete/701
+2018-11-21T00:33:54.133Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T00:33:59.319Z - debug: GET /orderLineItem/edit/701
+2018-11-21T00:33:59.320Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T00:34:02.296Z - debug: GET /orderLineItem/edit/701
+2018-11-21T00:34:02.297Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T00:34:05.639Z - debug: GET /orderLineItem/edit/701
+2018-11-21T00:34:05.640Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T00:34:08.859Z - debug: GET /orderLineItem/edit/702
+2018-11-21T00:34:08.859Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T00:34:08.859Z - info: RETURNING VIEW FOR{"orderID":702,"lineNumber":2,"productName":"Chips","quantity":1}
+2018-11-21T00:34:19.473Z - debug: POST /orderLineItem/save/702
+2018-11-21T00:34:19.473Z - info: Handling SAVE request [object Object]
+2018-11-21T00:34:19.474Z - info: Handling SAVING ID=702
+2018-11-21T00:34:19.474Z - info: ORIGINAL VALUES {"orderID":702,"lineNumber":2,"productName":"Chips","quantity":1}
+2018-11-21T00:34:19.474Z - info: UPDATED VALUES: {"lineNumber":"2","productName":"Chips","quantity":"1"}
+2018-11-21T00:34:19.474Z - info: SAVING UPDATED orderLineItem {"orderID":702,"lineNumber":2,"productName":"Chips","quantity":1}
+2018-11-21T00:34:19.477Z - debug: GET /orderLineItem
+2018-11-21T00:34:25.901Z - debug: GET /orderLineItem/delete/701
+2018-11-21T00:34:25.902Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T00:34:33.365Z - debug: GET /orderLineItem/details/702
+2018-11-21T00:34:33.366Z - info: Handling GET /details/:id [object Object]
+2018-11-21T00:34:33.366Z - info: RETURNING VIEW FOR {"orderID":702,"lineNumber":2,"productName":"Chips","quantity":1}
+2018-11-21T00:34:34.940Z - debug: GET /orderLineItem?
+2018-11-21T00:34:39.642Z - debug: GET /orderLineItem/edit/703
+2018-11-21T00:34:39.642Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T00:34:39.642Z - info: RETURNING VIEW FOR{"orderID":703,"lineNumber":3,"productName":"Pizza","quantity":1}
+2018-11-21T00:36:01.572Z - debug: GET /orderLineItem?
+2018-11-21T00:36:03.493Z - debug: GET /order
+2018-11-21T00:37:37.059Z - info: Environment variables loaded.
+2018-11-21T00:37:37.067Z - debug: START routing
+2018-11-21T00:37:37.092Z - debug: END routing
+2018-11-21T00:37:37.092Z - info: Loaded routing.
+2018-11-21T00:37:37.124Z - info: START seeder.
+2018-11-21T00:37:37.128Z - debug: 5 products seeded
+2018-11-21T00:37:37.128Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:37:37.130Z - debug: 5 orders seeded
+2018-11-21T00:37:37.130Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:37:37.131Z - debug: 5 customers seeded
+2018-11-21T00:37:37.131Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:37:37.133Z - debug: 4 orderLineItem seeded
+2018-11-21T00:37:37.133Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:37:42.482Z - debug: GET /
+2018-11-21T00:37:44.574Z - debug: GET /order
+2018-11-21T00:37:51.432Z - debug: GET /orderLineItem
+2018-11-21T00:37:55.826Z - debug: GET /order
+2018-11-21T00:40:22.549Z - info: Environment variables loaded.
+2018-11-21T00:40:22.558Z - debug: START routing
+2018-11-21T00:40:22.592Z - debug: END routing
+2018-11-21T00:40:22.592Z - info: Loaded routing.
+2018-11-21T00:40:22.635Z - info: START seeder.
+2018-11-21T00:40:22.640Z - debug: 5 products seeded
+2018-11-21T00:40:22.640Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:40:22.644Z - debug: 5 orders seeded
+2018-11-21T00:40:22.644Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:40:22.646Z - debug: 5 customers seeded
+2018-11-21T00:40:22.646Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:40:22.649Z - debug: 4 orderLineItem seeded
+2018-11-21T00:40:22.649Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:42:40.536Z - info: Environment variables loaded.
+2018-11-21T00:42:40.542Z - debug: START routing
+2018-11-21T00:42:40.566Z - debug: END routing
+2018-11-21T00:42:40.566Z - info: Loaded routing.
+2018-11-21T00:42:40.596Z - info: START seeder.
+2018-11-21T00:42:40.599Z - debug: 5 products seeded
+2018-11-21T00:42:40.599Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:42:40.601Z - debug: 5 orders seeded
+2018-11-21T00:42:40.601Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:42:40.603Z - debug: 5 customers seeded
+2018-11-21T00:42:40.603Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:42:40.607Z - debug: 4 orderLineItem seeded
+2018-11-21T00:42:40.607Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:42:47.095Z - debug: GET /
+2018-11-21T00:42:49.619Z - debug: GET /order
+2018-11-21T00:42:51.456Z - debug: GET /order
+2018-11-21T00:42:56.777Z - debug: GET /orderLineItem
+2018-11-21T00:43:05.571Z - debug: GET /orderLineItem/findone/701
+2018-11-21T00:43:57.429Z - debug: GET /orders
+2018-11-21T00:45:44.744Z - info: Environment variables loaded.
+2018-11-21T00:45:44.751Z - debug: START routing
+2018-11-21T00:45:44.774Z - debug: END routing
+2018-11-21T00:45:44.774Z - info: Loaded routing.
+2018-11-21T00:45:44.804Z - info: START seeder.
+2018-11-21T00:45:44.808Z - debug: 5 products seeded
+2018-11-21T00:45:44.808Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:44.812Z - debug: 5 orders seeded
+2018-11-21T00:45:44.812Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:44.814Z - debug: 5 customers seeded
+2018-11-21T00:45:44.814Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:44.815Z - debug: 4 orderLineItem seeded
+2018-11-21T00:45:44.815Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:51.211Z - info: Environment variables loaded.
+2018-11-21T00:45:51.218Z - debug: START routing
+2018-11-21T00:45:51.241Z - debug: END routing
+2018-11-21T00:45:51.241Z - info: Loaded routing.
+2018-11-21T00:45:51.272Z - info: START seeder.
+2018-11-21T00:45:51.275Z - debug: 5 products seeded
+2018-11-21T00:45:51.275Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:51.277Z - debug: 5 orders seeded
+2018-11-21T00:45:51.277Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:51.279Z - debug: 5 customers seeded
+2018-11-21T00:45:51.279Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:51.280Z - debug: 4 orderLineItem seeded
+2018-11-21T00:45:51.280Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:55.442Z - info: Environment variables loaded.
+2018-11-21T00:45:55.451Z - debug: START routing
+2018-11-21T00:45:55.540Z - debug: END routing
+2018-11-21T00:45:55.540Z - info: Loaded routing.
+2018-11-21T00:45:55.603Z - info: START seeder.
+2018-11-21T00:45:55.608Z - debug: 5 products seeded
+2018-11-21T00:45:55.608Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:55.613Z - debug: 5 orders seeded
+2018-11-21T00:45:55.613Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:55.616Z - debug: 5 customers seeded
+2018-11-21T00:45:55.616Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:45:55.618Z - debug: 4 orderLineItem seeded
+2018-11-21T00:45:55.618Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:53:23.564Z - info: Environment variables loaded.
+2018-11-21T00:53:23.571Z - debug: START routing
+2018-11-21T00:53:23.596Z - debug: END routing
+2018-11-21T00:53:23.596Z - info: Loaded routing.
+2018-11-21T00:53:23.627Z - info: START seeder.
+2018-11-21T00:53:23.631Z - debug: 5 products seeded
+2018-11-21T00:53:23.631Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:53:23.633Z - debug: 5 orders seeded
+2018-11-21T00:53:23.633Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:53:23.636Z - debug: 5 customers seeded
+2018-11-21T00:53:23.636Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:53:23.639Z - debug: 4 orderLineItem seeded
+2018-11-21T00:53:23.639Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:53:30.077Z - debug: GET /
+2018-11-21T00:53:36.465Z - debug: GET /orders
+2018-11-21T00:53:39.395Z - debug: GET /order
+2018-11-21T00:53:43.268Z - debug: GET /order
+2018-11-21T00:54:20.234Z - debug: GET /
+2018-11-21T00:54:20.793Z - debug: GET /favicon.ico
+2018-11-21T00:54:22.412Z - debug: GET /orders
+2018-11-21T00:54:24.254Z - debug: GET /order
+2018-11-21T00:54:26.914Z - debug: GET /order
+2018-11-21T00:54:32.918Z - debug: GET /orderLineItem
+2018-11-21T00:54:53.914Z - debug: GET /order
+2018-11-21T00:54:57.430Z - debug: GET /
+2018-11-21T00:54:59.138Z - debug: GET /orderLineItem
+2018-11-21T00:55:03.115Z - debug: GET /orderLineItem/findall
+2018-11-21T00:56:33.855Z - info: Environment variables loaded.
+2018-11-21T00:56:33.865Z - debug: START routing
+2018-11-21T00:56:33.901Z - debug: END routing
+2018-11-21T00:56:33.901Z - info: Loaded routing.
+2018-11-21T00:56:33.968Z - info: START seeder.
+2018-11-21T00:56:33.978Z - debug: 5 products seeded
+2018-11-21T00:56:33.978Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:56:33.981Z - debug: 5 orders seeded
+2018-11-21T00:56:33.981Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:56:33.985Z - debug: 5 customers seeded
+2018-11-21T00:56:33.985Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:56:33.990Z - debug: 4 orderLineItem seeded
+2018-11-21T00:56:33.990Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:56:54.362Z - info: Environment variables loaded.
+2018-11-21T00:56:54.476Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 18:56:54 GMT-0600 (Central Standard Time), pid=404116, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=64786432, heapTotal=62205952, heapUsed=34547576, external=19241324, loadavg=[0, 0, 0], uptime=443181
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T00:56:54.372Z - debug: START routing
+2018-11-21T00:57:16.206Z - info: Environment variables loaded.
+2018-11-21T00:57:16.314Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 18:57:16 GMT-0600 (Central Standard Time), pid=402928, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=64290816, heapTotal=62205952, heapUsed=34047424, external=19165751, loadavg=[0, 0, 0], uptime=443203
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T00:57:16.214Z - debug: START routing
+2018-11-21T00:57:30.414Z - info: Environment variables loaded.
+2018-11-21T00:57:30.424Z - debug: START routing
+2018-11-21T00:57:30.453Z - debug: END routing
+2018-11-21T00:57:30.453Z - info: Loaded routing.
+2018-11-21T00:57:30.490Z - info: START seeder.
+2018-11-21T00:57:30.496Z - debug: 5 products seeded
+2018-11-21T00:57:30.496Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:30.499Z - debug: 5 orders seeded
+2018-11-21T00:57:30.499Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:30.503Z - debug: 5 customers seeded
+2018-11-21T00:57:30.503Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:30.506Z - debug: 4 orderLineItem seeded
+2018-11-21T00:57:30.506Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:47.543Z - info: Environment variables loaded.
+2018-11-21T00:57:47.552Z - debug: START routing
+2018-11-21T00:57:47.583Z - debug: END routing
+2018-11-21T00:57:47.583Z - info: Loaded routing.
+2018-11-21T00:57:47.619Z - info: START seeder.
+2018-11-21T00:57:47.623Z - debug: 5 products seeded
+2018-11-21T00:57:47.623Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:47.625Z - debug: 5 orders seeded
+2018-11-21T00:57:47.625Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:47.626Z - debug: 5 customers seeded
+2018-11-21T00:57:47.626Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:47.628Z - debug: 4 orderLineItem seeded
+2018-11-21T00:57:47.628Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:57:58.122Z - debug: GET /order
+2018-11-21T00:57:58.337Z - debug: GET /favicon.ico
+2018-11-21T00:58:01.955Z - debug: GET /orders
+2018-11-21T00:58:07.595Z - debug: GET /orderLineItem
+2018-11-21T00:58:13.099Z - debug: GET /order
+2018-11-21T00:58:33.705Z - debug: GET /orders
+2018-11-21T01:00:38.811Z - info: Environment variables loaded.
+2018-11-21T01:00:38.905Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 19:00:38 GMT-0600 (Central Standard Time), pid=406160, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=64335872, heapTotal=62730240, heapUsed=33588128, external=19157004, loadavg=[0, 0, 0], uptime=443406
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T01:00:38.818Z - debug: START routing
+2018-11-21T01:01:54.071Z - info: Environment variables loaded.
+2018-11-21T01:01:54.169Z - error: uncaughtException: Cannot find module '../models/order.js' date=Tue Nov 20 2018 19:01:54 GMT-0600 (Central Standard Time), pid=405872, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=63975424, heapTotal=63778816, heapUsed=32308424, external=18830488, loadavg=[0, 0, 0], uptime=443481
+Error: Cannot find module '../models/order.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\controllers\order.js:5:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\routes\index.js:20:22)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+2018-11-21T01:01:54.078Z - debug: START routing
+2018-11-21T01:02:19.123Z - info: Environment variables loaded.
+2018-11-21T01:02:19.131Z - debug: START routing
+2018-11-21T01:02:19.164Z - debug: END routing
+2018-11-21T01:02:19.164Z - info: Loaded routing.
+2018-11-21T01:02:19.198Z - info: START seeder.
+2018-11-21T01:02:19.201Z - debug: 5 products seeded
+2018-11-21T01:02:19.201Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:02:19.203Z - debug: 2 orders seeded
+2018-11-21T01:02:19.203Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:02:19.205Z - debug: 5 customers seeded
+2018-11-21T01:02:19.205Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:02:19.207Z - debug: 4 orderLineItem seeded
+2018-11-21T01:02:19.207Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:02:29.335Z - info: Environment variables loaded.
+2018-11-21T01:02:29.344Z - debug: START routing
+2018-11-21T01:02:29.371Z - debug: END routing
+2018-11-21T01:02:29.371Z - info: Loaded routing.
+2018-11-21T01:02:29.412Z - info: START seeder.
+2018-11-21T01:02:29.416Z - debug: 5 products seeded
+2018-11-21T01:02:29.416Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:02:29.419Z - debug: 2 orders seeded
+2018-11-21T01:02:29.419Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:02:29.421Z - debug: 5 customers seeded
+2018-11-21T01:02:29.421Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:02:29.423Z - debug: 4 orderLineItem seeded
+2018-11-21T01:02:29.423Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:12:26.880Z - info: Environment variables loaded.
+2018-11-21T01:12:26.887Z - debug: START routing
+2018-11-21T01:12:26.913Z - debug: END routing
+2018-11-21T01:12:26.913Z - info: Loaded routing.
+2018-11-21T01:12:26.945Z - info: START seeder.
+2018-11-21T01:12:26.948Z - debug: 5 products seeded
+2018-11-21T01:12:26.948Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:12:26.950Z - debug: 2 orders seeded
+2018-11-21T01:12:26.950Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:12:26.951Z - debug: 5 customers seeded
+2018-11-21T01:12:26.951Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:12:26.953Z - debug: 4 orderLineItem seeded
+2018-11-21T01:12:26.953Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:12:33.653Z - debug: GET /
+2018-11-21T01:12:36.175Z - debug: GET /order
+2018-11-21T01:12:40.071Z - debug: GET /order
+2018-11-21T01:12:42.217Z - debug: GET /order
+2018-11-21T01:12:52.437Z - debug: GET /product
+2018-11-21T01:12:53.543Z - debug: GET /order
+2018-11-21T01:13:04.127Z - debug: GET /order
+2018-11-21T01:13:05.715Z - debug: GET /order
+2018-11-21T01:13:11.106Z - debug: GET /
+2018-11-21T01:13:15.945Z - debug: GET /order
+2018-11-21T01:13:20.358Z - debug: GET /order
+2018-11-21T01:30:46.460Z - info: Environment variables loaded.
+2018-11-21T01:30:46.467Z - debug: START routing
+2018-11-21T01:30:46.491Z - debug: END routing
+2018-11-21T01:30:46.491Z - info: Loaded routing.
+2018-11-21T01:30:46.522Z - info: START seeder.
+2018-11-21T01:30:46.525Z - debug: 5 products seeded
+2018-11-21T01:30:46.525Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:30:46.528Z - debug: 5 orders seeded
+2018-11-21T01:30:46.528Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:30:46.532Z - debug: 5 customers seeded
+2018-11-21T01:30:46.532Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:30:46.534Z - debug: 4 orderLineItem seeded
+2018-11-21T01:30:46.534Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:30:53.536Z - debug: GET /
+2018-11-21T01:30:55.623Z - debug: GET /order
+2018-11-21T01:44:13.770Z - info: Environment variables loaded.
+2018-11-21T01:44:13.776Z - debug: START routing
+2018-11-21T01:44:13.801Z - debug: END routing
+2018-11-21T01:44:13.801Z - info: Loaded routing.
+2018-11-21T01:44:13.840Z - info: START seeder.
+2018-11-21T01:44:13.845Z - debug: 5 products seeded
+2018-11-21T01:44:13.845Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:44:13.848Z - debug: 5 orders seeded
+2018-11-21T01:44:13.848Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:44:13.851Z - debug: 5 customers seeded
+2018-11-21T01:44:13.851Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:44:13.854Z - debug: 4 orderLineItem seeded
+2018-11-21T01:44:13.854Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:44:20.387Z - debug: GET /
+2018-11-21T01:44:22.903Z - debug: GET /order
+2018-11-21T01:44:27.342Z - debug: GET /order/details/
+2018-11-21T01:44:30.921Z - debug: GET /order/edit/
+2018-11-21T01:44:38.516Z - debug: GET /order/create
+2018-11-21T01:44:38.517Z - info: Handling GET /create[object Object]
+2018-11-21T01:44:38.527Z - debug: {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5bf4b8865aa2ba5f06876ecd","orderdate":"2018-11-21T01:44:38.524Z"}
+2018-11-21T01:45:19.131Z - debug: GET /order/details/
+2018-11-21T01:47:26.632Z - info: Environment variables loaded.
+2018-11-21T01:47:26.639Z - debug: START routing
+2018-11-21T01:47:26.668Z - debug: END routing
+2018-11-21T01:47:26.668Z - info: Loaded routing.
+2018-11-21T01:47:26.701Z - info: START seeder.
+2018-11-21T01:47:26.705Z - debug: 5 products seeded
+2018-11-21T01:47:26.705Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:47:26.706Z - debug: 5 orders seeded
+2018-11-21T01:47:26.706Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:47:26.708Z - debug: 5 customers seeded
+2018-11-21T01:47:26.708Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:47:26.710Z - debug: 4 orderLineItem seeded
+2018-11-21T01:47:26.710Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:13.590Z - info: Environment variables loaded.
+2018-11-21T01:50:13.759Z - error: uncaughtException: listen EADDRINUSE :::8081 date=Tue Nov 20 2018 19:50:13 GMT-0600 (Central Standard Time), pid=421196, uid=null, gid=null, cwd=C:\Users\S533490\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533490\Desktop\onlineorder\app.js], rss=66392064, heapTotal=63778816, heapUsed=35667512, external=19190335, loadavg=[0, 0, 0], uptime=446381
+Error: listen EADDRINUSE :::8081
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (C:\Users\S533490\Desktop\onlineorder\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533490\Desktop\onlineorder\app.js:111:6)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+2018-11-21T01:50:13.597Z - debug: START routing
+2018-11-21T01:50:13.622Z - debug: END routing
+2018-11-21T01:50:13.622Z - info: Loaded routing.
+2018-11-21T01:50:13.653Z - info: START seeder.
+2018-11-21T01:50:13.657Z - debug: 5 products seeded
+2018-11-21T01:50:13.657Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:13.660Z - debug: 5 orders seeded
+2018-11-21T01:50:13.660Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:13.662Z - debug: 5 customers seeded
+2018-11-21T01:50:13.662Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:13.663Z - debug: 4 orderLineItem seeded
+2018-11-21T01:50:13.663Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:37.689Z - info: Environment variables loaded.
+2018-11-21T01:50:37.696Z - debug: START routing
+2018-11-21T01:50:37.721Z - debug: END routing
+2018-11-21T01:50:37.721Z - info: Loaded routing.
+2018-11-21T01:50:37.753Z - info: START seeder.
+2018-11-21T01:50:37.757Z - debug: 5 products seeded
+2018-11-21T01:50:37.757Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:37.758Z - debug: 5 orders seeded
+2018-11-21T01:50:37.758Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:37.760Z - debug: 5 customers seeded
+2018-11-21T01:50:37.761Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:37.762Z - debug: 4 orderLineItem seeded
+2018-11-21T01:50:37.762Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:50:44.764Z - debug: GET /
+2018-11-21T01:50:46.607Z - debug: GET /order
+2018-11-21T01:51:34.118Z - debug: GET /order/edit/
+2018-11-21T01:51:38.926Z - debug: GET /order/create
+2018-11-21T01:51:38.926Z - info: Handling GET /create[object Object]
+2018-11-21T01:51:38.932Z - debug: {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5bf4ba2abcb1aa6cd6754d8c","orderdate":"2018-11-21T01:51:38.929Z"}
+2018-11-21T01:53:30.079Z - debug: GET /order/details/
+2018-11-21T01:55:39.704Z - debug: GET /order
+2018-11-21T01:57:20.456Z - info: Environment variables loaded.
+2018-11-21T01:57:20.463Z - debug: START routing
+2018-11-21T01:57:20.488Z - debug: END routing
+2018-11-21T01:57:20.488Z - info: Loaded routing.
+2018-11-21T01:57:20.519Z - info: START seeder.
+2018-11-21T01:57:20.522Z - debug: 5 products seeded
+2018-11-21T01:57:20.522Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:57:20.524Z - debug: 5 orders seeded
+2018-11-21T01:57:20.524Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:57:20.525Z - debug: 5 customers seeded
+2018-11-21T01:57:20.525Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:57:20.527Z - debug: 4 orderLineItem seeded
+2018-11-21T01:57:20.527Z - info: END Seeder. Sample data read and verified.
+2018-11-21T01:57:25.327Z - debug: GET /
+2018-11-21T01:57:27.275Z - debug: GET /order
+2018-11-21T01:57:30.665Z - debug: GET /order/details/
+2018-11-21T02:02:48.716Z - info: Environment variables loaded.
+2018-11-21T02:02:48.723Z - debug: START routing
+2018-11-21T02:02:48.748Z - debug: END routing
+2018-11-21T02:02:48.748Z - info: Loaded routing.
+2018-11-21T02:02:48.779Z - info: START seeder.
+2018-11-21T02:02:48.783Z - debug: 5 products seeded
+2018-11-21T02:02:48.783Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:02:48.786Z - debug: 5 orders seeded
+2018-11-21T02:02:48.786Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:02:48.788Z - debug: 5 customers seeded
+2018-11-21T02:02:48.788Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:02:48.789Z - debug: 4 orderLineItem seeded
+2018-11-21T02:02:48.790Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:02:55.491Z - debug: GET /
+2018-11-21T02:02:56.991Z - debug: GET /order
+2018-11-21T02:03:17.175Z - debug: GET /order/details/104
+2018-11-21T02:03:17.176Z - info: Handling GET /details/:id [object Object]
+2018-11-21T02:03:19.801Z - debug: GET /order/edit/104
+2018-11-21T02:03:19.802Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T02:03:30.650Z - debug: GET /order/edit/103
+2018-11-21T02:03:30.650Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T02:14:02.772Z - info: Environment variables loaded.
+2018-11-21T02:14:02.779Z - debug: START routing
+2018-11-21T02:14:02.804Z - debug: END routing
+2018-11-21T02:14:02.804Z - info: Loaded routing.
+2018-11-21T02:14:02.836Z - info: START seeder.
+2018-11-21T02:14:02.840Z - debug: 5 products seeded
+2018-11-21T02:14:02.840Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:14:02.843Z - debug: 5 orders seeded
+2018-11-21T02:14:02.843Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:14:02.844Z - debug: 5 customers seeded
+2018-11-21T02:14:02.845Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:14:02.846Z - debug: 4 orderLineItem seeded
+2018-11-21T02:14:02.846Z - info: END Seeder. Sample data read and verified.
+2018-11-21T02:14:08.027Z - debug: GET /
+2018-11-21T02:14:09.983Z - debug: GET /order
+2018-11-21T02:14:14.085Z - debug: GET /order/details/104
+2018-11-21T02:14:14.086Z - info: Handling GET /details/:id [object Object]
+2018-11-21T02:14:44.469Z - debug: GET /order/create
+2018-11-21T02:14:44.469Z - info: Handling GET /create[object Object]
+2018-11-21T02:14:44.476Z - debug: {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5bf4bf942761cc9022bc4641","orderdate":"2018-11-21T02:14:44.473Z"}
+2018-11-21T02:14:52.499Z - debug: GET /order
+2018-11-21T02:14:57.754Z - debug: GET /
+2018-11-21T02:14:59.436Z - debug: GET /order
+2018-11-21T02:15:02.267Z - debug: GET /order/edit/101
+2018-11-21T02:15:02.267Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T02:16:18.637Z - debug: GET /order
+2018-11-21T02:16:20.945Z - debug: GET /order/delete/104
+2018-11-21T02:16:20.946Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:42:16.165Z - debug: GET /order
+2018-11-21T03:42:18.180Z - debug: GET /order/details/104
+2018-11-21T03:42:18.180Z - info: Handling GET /details/:id [object Object]
+2018-11-21T03:42:21.142Z - debug: GET /order/edit/104
+2018-11-21T03:42:21.142Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T03:42:46.965Z - debug: GET /order
+2018-11-21T03:42:49.517Z - debug: GET /order
+2018-11-21T03:42:53.404Z - debug: GET /
+2018-11-21T03:42:55.334Z - debug: GET /order
+2018-11-21T03:43:12.288Z - debug: GET /order/create
+2018-11-21T03:43:12.288Z - info: Handling GET /create[object Object]
+2018-11-21T03:43:12.289Z - debug: {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5bf4d4502761cc9022bc4642","orderdate":"2018-11-21T03:43:12.289Z"}
+2018-11-21T03:43:41.303Z - debug: POST /order/save
+2018-11-21T03:43:41.305Z - info: Handling POST [object Object]
+2018-11-21T03:43:41.305Z - debug: {" _orderid":"1","ordername":"Chicken Ghost Biryani","orderdate":"2018-11-20","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":"40"}
+2018-11-21T03:43:41.306Z - info: NEW ID undefined
+2018-11-21T03:43:41.310Z - info: SAVING NEW order {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5bf4d46d2761cc9022bc4643","orderdate":"2018-11-21T03:43:41.305Z"}
+2018-11-21T03:43:41.318Z - debug: GET /order
+2018-11-21T03:44:57.345Z - debug: GET /order/edit/
+2018-11-21T03:53:49.183Z - info: Environment variables loaded.
+2018-11-21T03:53:49.190Z - debug: START routing
+2018-11-21T03:53:49.214Z - debug: END routing
+2018-11-21T03:53:49.214Z - info: Loaded routing.
+2018-11-21T03:53:49.245Z - info: START seeder.
+2018-11-21T03:53:49.248Z - debug: 5 products seeded
+2018-11-21T03:53:49.248Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:53:49.250Z - debug: 5 orders seeded
+2018-11-21T03:53:49.250Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:53:49.252Z - debug: 5 customers seeded
+2018-11-21T03:53:49.252Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:53:49.254Z - debug: 4 orderLineItem seeded
+2018-11-21T03:53:49.254Z - info: END Seeder. Sample data read and verified.
+2018-11-21T03:53:56.503Z - debug: GET /
+2018-11-21T03:53:58.013Z - debug: GET /order
+2018-11-21T03:54:00.861Z - debug: GET /order/edit/104
+2018-11-21T03:54:00.862Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T03:54:03.459Z - debug: GET /order/delete/104
+2018-11-21T03:54:03.459Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:55:52.144Z - debug: GET /orderLineItem
+2018-11-21T03:55:54.738Z - debug: GET /orderLineItem/delete/701
+2018-11-21T03:55:54.739Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:55:54.739Z - info: RETURNING VIEW FOR {"orderID":701,"lineNumber":1,"productName":"Biryani","quantity":2}
+2018-11-21T03:55:56.945Z - debug: POST /orderLineItem/delete/701
+2018-11-21T03:55:56.946Z - info: Handling DELETE request [object Object]
+2018-11-21T03:55:56.946Z - info: Handling REMOVING ID=701
+2018-11-21T03:55:56.956Z - debug: GET /orderLineItem
+2018-11-21T03:55:58.953Z - debug: GET /orderLineItem/delete/701
+2018-11-21T03:55:58.953Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:56:02.153Z - debug: GET /orderLineItem/delete/703
+2018-11-21T03:56:02.153Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:56:02.153Z - info: RETURNING VIEW FOR {"orderID":703,"lineNumber":3,"productName":"Pizza","quantity":1}
+2018-11-21T03:57:51.610Z - debug: POST /orderLineItem/delete/703
+2018-11-21T03:57:51.610Z - info: Handling DELETE request [object Object]
+2018-11-21T03:57:51.610Z - info: Handling REMOVING ID=703
+2018-11-21T03:57:51.616Z - debug: GET /orderLineItem
+2018-11-21T03:57:53.322Z - debug: GET /orderLineItem/delete/703
+2018-11-21T03:57:53.323Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:57:56.832Z - debug: GET /orderLineItem/delete/702
+2018-11-21T03:57:56.832Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:57:56.832Z - info: RETURNING VIEW FOR {"orderID":702,"lineNumber":2,"productName":"Chips","quantity":1}
+2018-11-21T03:57:58.103Z - debug: POST /orderLineItem/delete/702
+2018-11-21T03:57:58.104Z - info: Handling DELETE request [object Object]
+2018-11-21T03:57:58.104Z - info: Handling REMOVING ID=702
+2018-11-21T03:57:58.108Z - debug: GET /orderLineItem
+2018-11-21T03:58:00.260Z - debug: GET /orderLineItem/delete/704
+2018-11-21T03:58:00.261Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T03:58:00.261Z - info: RETURNING VIEW FOR {"orderID":704,"lineNumber":4,"productName":"Burger","quantity":1}
+2018-11-21T03:58:02.100Z - debug: GET /http://localhost:8081/orderLineItem?
+2018-11-21T03:58:08.607Z - debug: GET /orderLineItem/edit/701
+2018-11-21T03:58:08.608Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T03:58:13.844Z - debug: GET /orderLineItem/edit/704
+2018-11-21T03:58:13.844Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T03:58:13.844Z - info: RETURNING VIEW FOR{"orderID":704,"lineNumber":4,"productName":"Burger","quantity":1}
+2018-11-21T04:00:36.340Z - debug: GET /order
+2018-11-21T04:00:39.098Z - debug: GET /order/edit/104
+2018-11-21T04:00:39.098Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T04:00:47.512Z - debug: GET /
+2018-11-21T04:00:49.144Z - debug: GET /order/edit/101
+2018-11-21T04:00:49.145Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T04:00:52.032Z - debug: GET /order/edit/103
+2018-11-21T04:00:52.032Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T04:00:55.511Z - debug: GET /order/delete/101
+2018-11-21T04:00:55.511Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T04:01:02.826Z - debug: GET /order/create
+2018-11-21T04:01:02.826Z - info: Handling GET /create[object Object]
+2018-11-21T04:01:02.833Z - debug: {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5bf4d87e3959d4900e9bc0f3","orderdate":"2018-11-21T04:01:02.831Z"}
+2018-11-21T04:01:09.828Z - debug: GET /order/edit/101
+2018-11-21T04:01:09.828Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T04:01:12.916Z - debug: GET /order/details/103
+2018-11-21T04:01:12.916Z - info: Handling GET /details/:id [object Object]
+2018-11-21T04:03:06.650Z - debug: GET /order
+2018-11-21T04:03:09.892Z - debug: GET /order
+2018-11-21T04:03:13.433Z - debug: GET /
+2018-11-21T04:03:15.069Z - debug: GET /order/edit/104
+2018-11-21T04:03:15.069Z - info: Handling GET /edit/:id [object Object]
+2018-11-21T04:03:17.933Z - debug: GET /order/details/101
+2018-11-21T04:03:17.934Z - info: Handling GET /details/:id [object Object]
+2018-11-21T04:03:21.521Z - debug: GET /order/delete/103
+2018-11-21T04:03:21.521Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T04:03:30.434Z - debug: GET /order/create
+2018-11-21T04:03:30.434Z - info: Handling GET /create[object Object]
+2018-11-21T04:03:30.435Z - debug: {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5bf4d9123959d4900e9bc0f4","orderdate":"2018-11-21T04:03:30.435Z"}
+2018-11-21T04:03:35.753Z - debug: GET /order/details/103
+2018-11-21T04:03:35.753Z - info: Handling GET /details/:id [object Object]
+2018-11-21T04:04:00.461Z - debug: GET /orderLineItem/delete.ejs
+2018-11-21T04:04:02.493Z - debug: GET /order
+2018-11-21T04:07:12.457Z - info: Environment variables loaded.
+2018-11-21T04:07:12.467Z - debug: START routing
+2018-11-21T04:07:12.494Z - debug: END routing
+2018-11-21T04:07:12.494Z - info: Loaded routing.
+2018-11-21T04:07:12.531Z - info: START seeder.
+2018-11-21T04:07:12.537Z - debug: 5 products seeded
+2018-11-21T04:07:12.537Z - info: END Seeder. Sample data read and verified.
+2018-11-21T04:07:12.542Z - debug: 5 orders seeded
+2018-11-21T04:07:12.542Z - info: END Seeder. Sample data read and verified.
+2018-11-21T04:07:12.546Z - debug: 5 customers seeded
+2018-11-21T04:07:12.546Z - info: END Seeder. Sample data read and verified.
+2018-11-21T04:07:12.549Z - debug: 4 orderLineItem seeded
+2018-11-21T04:07:12.549Z - info: END Seeder. Sample data read and verified.
+2018-11-21T04:07:42.769Z - info: Environment variables loaded.
+2018-11-21T04:07:42.776Z - debug: START routing
+2018-11-21T04:07:42.800Z - debug: END routing
+2018-11-21T04:07:42.800Z - info: Loaded routing.
+2018-11-21T04:07:42.833Z - info: START seeder.
+2018-11-21T04:07:42.836Z - debug: 5 products seeded
+2018-11-21T04:07:42.836Z - info: END Seeder. Sample data read and verified.
+2018-11-21T04:07:42.838Z - debug: 5 orders seeded
+2018-11-21T04:07:42.838Z - info: END Seeder. Sample data read and verified.
+2018-11-21T04:07:42.840Z - debug: 5 customers seeded
+2018-11-21T04:07:42.840Z - info: END Seeder. Sample data read and verified.
+2018-11-21T04:07:42.842Z - debug: 4 orderLineItem seeded
+2018-11-21T04:07:42.842Z - info: END Seeder. Sample data read and verified.

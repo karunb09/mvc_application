@@ -68,9 +68,9 @@ app.get("/", function (req, res) {
   res.render("product.ejs")
  })
 
- app.get("/order", function (req, res) {
-  res.render("order.ejs")
- })
+ //app.get("/order", function (req, res) {
+  //res.render("order.ejs")
+ //})
 
 //  app.get("/orderLineItem", function (req, res) {
 //   res.render("orderLineItem.ejs")
