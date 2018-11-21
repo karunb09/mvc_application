@@ -14,7 +14,7 @@ const orderLineItemSchema = new mongoose.Schema({
     required: true
   },
 
-  productID: {
+  productName: {
     type: String,
     required: true
   },

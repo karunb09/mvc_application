@@ -1,0 +1,56 @@
+<!-- main  -->
+<div class=row>
+    <div class="col col-xs-12">
+      <!-- <div class="form-group">
+        <label for="Order-Id">orderID</label>
+        <input type="number" class="form-control" id="name" name="name" value="<%= orderLineItem.orderID %>" required>
+      </div> -->
+      <div class="form-group">
+        <label for="lineNumber">LineNumber</label>
+        <input type="number" class="form-control" id="lineNumber" name="lineNumber" value="<%= orderLineItem.lineNumber%>">
+      </div>
+      <div class="form-group">
+        <label for="productName">product-name</label>
+        <input type="text" class="form-control" id="productName" name="productName" value="<%= orderLineItem.productName %>" required>
+      </div>
+      <div class="form-group">
+        <label for="quantity">quantity</label>
+        <input type="text" class="form-control" id="quantity" name="quantity" value="<%= orderLineItem.quantity %>" required>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <br/>
+
+  <hr>
+  <br/>
+  <br/>
+  
+  <!-- PUT CLIENT SIDE CODE HERE -->
+  <script>  
+  
+    // function onAgeChange() {
+    //   const newAge = parseFloat($("input[name=age]").val());
+    //   let price = 75
+    //   if (newAge == 1) {
+    //     price = 100
+    //   }
+    //   $("#puppyCost").html(price.toCurrencyInt());
+    // }
+  
+    // // window.onload = a function that will call all update functions to display calculated values
+    // window.onload = function () {
+    //   onAgeChange();
+    // }
+  
+    // prevent submission when hitting enter key - optional, but user-friendly 
+    document.forms[0].onkeypress = function (e) {
+      var key = e.charCode || e.keyCode || 0;
+      if (key == 13) {
+        e.preventDefault();
+      }
+    }
+  
+  // END CLIENT SIDE CODE  (close the script tag)
+  </script>

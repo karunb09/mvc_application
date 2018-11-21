@@ -2,25 +2,25 @@
     {
         "orderID": 701,
         "lineNumber": 1,
-        "productID": "Biryani",
+        "productName": "Biryani",
         "quantity" : 2
     },
     {
         "orderID": 702,
         "lineNumber": 2,
-        "productID": "Chips",
+        "productName": "Chips",
         "quantity" : 1
     },
     {
         "orderID": 703,
         "lineNumber": 3,
-        "productID": "Pizza",
+        "productName": "Pizza",
         "quantity" : 1
     },
     {
         "orderID": 704,
         "lineNumber": 4,
-        "productID": "Burger",
+        "productName": "Burger",
         "quantity" : 1
     }
 ]

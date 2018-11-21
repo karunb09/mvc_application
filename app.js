@@ -27,9 +27,17 @@ const fs = require('fs')
 // 6 respond with 404 if a bad URI is requested
 dotenv.load({ path: '.env' })
 LOG.info('Environment variables loaded.')
-app.set('views', path.resolve(__dirname, 'views')) // path to views
-app.set('view engine', 'ejs') // specify our view engine
+// path to views
+app.set('views', path.join(__dirname, 'views')) 
+// specify our view engine
+app.set('view engine', 'ejs') 
 app.engine('ejs',engines.ejs)
+
+// configure middleware.....................................................
+// app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')))
+app.use(expressStatusMonitor())
+
+
 // 2 include public assets and use bodyParser
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -41,10 +49,10 @@ app.use(expressLayouts)
 app.use(errorHandler()) // load error handler
 
 // 3 log requests to stdout and also
-// log HTTP requests to a file using the standard Apache combined format
-//var accessLogStream = fs.createWriteStream(__dirname + '/access.log', { flags: 'a' });
-//app.use(logger('dev'));
-//app.use(logger('combined', { stream: accessLogStream }));
+app.use((req, res, next) => {
+  LOG.debug('%s %s', req.method, req.url)
+  next()
+ })
 
 app.get("/", function (req, res) {
   //res.sendFile(path.join(__dirname + '/assets/index.html'))
@@ -56,17 +64,17 @@ app.get("/", function (req, res) {
   res.render("index.ejs")
  })
 
- app.get("/products", function (req, res) {
-  res.render("products.ejs")
+ app.get("/product", function (req, res) {
+  res.render("product.ejs")
  })
 
  app.get("/order", function (req, res) {
   res.render("order.ejs")
  })
 
- app.get("/orderLineItem", function (req, res) {
-  res.render("orderLineItem.ejs")
- })
+//  app.get("/orderLineItem", function (req, res) {
+//   res.render("orderLineItem.ejs")
+//  })
 
  app.get("/customer", function (req, res) {
   res.render("customer.ejs")
@@ -86,7 +94,9 @@ app.get("/", function (req, res) {
 
  app.get(function (req, res) {
   res.render('404')
-})  
+}) 
+
+
 
 const routes = require('./routes/index.js')
 app.use('/', routes)  // load routing

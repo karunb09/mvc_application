@@ -1,5 +1,18 @@
-<% include header %>
+<br />
+<br />
+<h2>OrderLineItem details</h2>
+<br />
+<br /> ID:
+<%=  orderLineItem.orderID %>
+<br> Number:
+<%=orderLineItem.lineNumber%>
+<br /> Name:
+<%=orderLineItem.productName%>
+<br /> Quantity (No`s):
+<%=orderLineItem.quantity%>
+<br />
+<br />
 
-<h1>orderLineItem read</h1>
-
-<% include footer %>
+<form method="get" action="http://localhost:8081/orderLineItem">
+    <input type="submit" value="Return to list" class="btn btn-caution" />
+</form>

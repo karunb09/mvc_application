@@ -1,5 +1,36 @@
-<% include header %>
-
-<h1>orderLineItem create</h1>
-
-<% include footer %>
+<div class="container-fluid">
+    <div class=row>
+      <div class="col col-md-12">
+        
+        <br/>
+        <h2>Create a new puppy </h2>
+        <br/>
+        
+          <div class="content">
+            <div>
+              <form name="orderLineItem" method="POST" action="http://localhost:8081/orderLineItem/save">
+  
+                <div class="form-group" id=frm>
+                  <label for="orderID">ID</label>
+                  <input type="number" class="form-control" id="orderID" name="orderID" value="">
+                </div>
+  
+                <!-- COMMON TO EDIT AND CREATE -->
+                <%include partial_edit.ejs%>
+  
+                  <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                  </div>
+              </form>
+  
+              <br/>
+  
+              <form method="get" action="http://localhost:8081/orderLineItem">
+                <input type="submit" value="Return to list" class="btn btn-caution" />
+              </form>
+  
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
