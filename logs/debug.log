@@ -4255,3 +4255,31 @@ Error: listen EADDRINUSE :::8081
 2018-11-29T23:10:11.944Z - debug: GET /customer/delete/104
 2018-11-29T23:10:11.944Z - info: Handling GET /delete/:id [object Object]
 2018-11-29T23:10:11.944Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-11-29T23:31:25.735Z - info: Environment variables loaded.
+2018-11-29T23:31:25.761Z - debug: START routing
+2018-11-29T23:31:25.825Z - debug: END routing
+2018-11-29T23:31:25.825Z - info: Loaded routing.
+2018-11-29T23:31:25.891Z - info: START seeder.
+2018-11-29T23:31:25.898Z - debug: 5 products seeded
+2018-11-29T23:31:25.898Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:31:25.903Z - debug: 5 orders seeded
+2018-11-29T23:31:25.903Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:31:25.907Z - debug: 5 customers seeded
+2018-11-29T23:31:25.907Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:31:25.910Z - debug: 4 orderLineItem seeded
+2018-11-29T23:31:25.910Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:31:31.334Z - debug: GET /
+2018-11-29T23:31:33.283Z - debug: GET /order
+2018-11-29T23:31:37.541Z - debug: GET /order/edit/104
+2018-11-29T23:31:37.542Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T23:31:37.543Z - info: RETURNING VIEW FOR{"_orderid":104,"ordername":"Chicken Fry2","orderdate":"1/1/2018","shippingAdress":"H.No:78-110,Krishna Nagar","deliveryDetails":"Jubiliant foods","_productID":"3","cashOnDelivery":600}
+2018-11-29T23:31:40.697Z - debug: GET /order/delete/104
+2018-11-29T23:31:40.697Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T23:31:40.697Z - info: RETURNING VIEW FOR {"_orderid":104,"ordername":"Chicken Fry2","orderdate":"1/1/2018","shippingAdress":"H.No:78-110,Krishna Nagar","deliveryDetails":"Jubiliant foods","_productID":"3","cashOnDelivery":600}
+2018-11-29T23:31:45.168Z - debug: GET /order/details/104
+2018-11-29T23:31:45.168Z - info: Handling GET /details/:id [object Object]
+2018-11-29T23:31:45.168Z - info: RETURNING VIEW FOR {"_orderid":104,"ordername":"Chicken Fry2","orderdate":"1/1/2018","shippingAdress":"H.No:78-110,Krishna Nagar","deliveryDetails":"Jubiliant foods","_productID":"3","cashOnDelivery":600}
+2018-11-29T23:32:35.211Z - debug: GET /orderLineItem/edit.ejs
+2018-11-29T23:32:39.732Z - debug: GET /orderLineItem/read.ejs
+2018-11-29T23:35:34.721Z - debug: GET /
+2018-11-29T23:35:36.860Z - debug: GET /order
