@@ -3618,3 +3618,37 @@ Error: Cannot find module '../models/order.js'
 2018-11-29T19:31:29.462Z - debug: GET /order
 2018-11-29T19:31:32.177Z - debug: GET /order/edit/104
 2018-11-29T19:31:32.177Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T22:13:37.376Z - info: Environment variables loaded.
+2018-11-29T22:13:37.399Z - debug: START routing
+2018-11-29T22:13:37.445Z - debug: END routing
+2018-11-29T22:13:37.445Z - info: Loaded routing.
+2018-11-29T22:13:37.507Z - info: START seeder.
+2018-11-29T22:13:37.512Z - debug: 5 products seeded
+2018-11-29T22:13:37.512Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:13:37.516Z - debug: 5 orders seeded
+2018-11-29T22:13:37.516Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:13:37.522Z - debug: 5 customers seeded
+2018-11-29T22:13:37.522Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:13:37.526Z - debug: 4 orderLineItem seeded
+2018-11-29T22:13:37.526Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:14:29.685Z - info: Environment variables loaded.
+2018-11-29T22:14:29.702Z - debug: START routing
+2018-11-29T22:14:29.764Z - debug: END routing
+2018-11-29T22:14:29.764Z - info: Loaded routing.
+2018-11-29T22:14:29.835Z - info: START seeder.
+2018-11-29T22:14:29.843Z - debug: 5 products seeded
+2018-11-29T22:14:29.844Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:14:29.848Z - debug: 5 orders seeded
+2018-11-29T22:14:29.849Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:14:29.861Z - debug: 5 customers seeded
+2018-11-29T22:14:29.862Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:14:29.865Z - debug: 4 orderLineItem seeded
+2018-11-29T22:14:29.865Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:14:33.323Z - debug: GET /
+2018-11-29T22:14:33.842Z - debug: GET /favicon.ico
+2018-11-29T22:14:40.066Z - debug: GET /customer
+2018-11-29T22:14:43.685Z - debug: GET /customer
+2018-11-29T22:14:45.727Z - debug: GET /order
+2018-11-29T22:14:50.943Z - debug: GET /orderLineItem
+2018-11-29T22:14:54.163Z - debug: GET /customer
+2018-11-29T22:14:55.527Z - debug: GET /product

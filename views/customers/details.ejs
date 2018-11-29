@@ -1,5 +1,22 @@
-<% include header %>
+<!--@Author Hyndavi Musipatla-->
+<br/>
+<br/>
+<h2>Customer details</h2>
+<br/>
+<br/> 
+ID:
+<%=  customer._id %>
+<br> customername:
+<%=customer.customername%>
+<br /> customerAddress:
+<%=customer.customerAddress%>
+<br /> customerPhoneNumber:
+<%=customer.customerPhoneNumber%>
+<br /> customerEmail:
+<%=customer.customerEmail%>
 
-<p> Customers Details </p>
-
-<% include footer %>
+        <br/>
+        <br/>
+            <form method="get" action="/customer">
+              <input type="submit" value="Return to list" class="btn btn-caution" />
+            </form>
