@@ -3801,3 +3801,52 @@ Error: listen EADDRINUSE :::8081
 2018-11-29T22:38:44.547Z - debug: 4 orderLineItem seeded
 2018-11-29T22:38:44.547Z - info: END Seeder. Sample data read and verified.
 2018-11-29T22:38:53.244Z - debug: GET /
+2018-11-29T23:50:05.710Z - info: Environment variables loaded.
+2018-11-29T23:50:05.721Z - debug: START routing
+2018-11-29T23:50:05.746Z - debug: END routing
+2018-11-29T23:50:05.746Z - info: Loaded routing.
+2018-11-29T23:50:05.787Z - info: START seeder.
+2018-11-29T23:50:05.793Z - debug: 5 products seeded
+2018-11-29T23:50:05.793Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:05.796Z - debug: 5 orders seeded
+2018-11-29T23:50:05.796Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:05.800Z - debug: 5 customers seeded
+2018-11-29T23:50:05.800Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:05.804Z - debug: 4 orderLineItem seeded
+2018-11-29T23:50:05.804Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:08.243Z - info: Environment variables loaded.
+2018-11-29T23:50:08.250Z - debug: START routing
+2018-11-29T23:50:08.278Z - debug: END routing
+2018-11-29T23:50:08.278Z - info: Loaded routing.
+2018-11-29T23:50:08.316Z - info: START seeder.
+2018-11-29T23:50:08.325Z - debug: 5 products seeded
+2018-11-29T23:50:08.326Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:08.328Z - debug: 5 orders seeded
+2018-11-29T23:50:08.329Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:08.334Z - debug: 5 customers seeded
+2018-11-29T23:50:08.334Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:08.338Z - debug: 4 orderLineItem seeded
+2018-11-29T23:50:08.339Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:50:15.827Z - debug: GET /
+2018-11-29T23:50:22.683Z - debug: GET /orderLineItem
+2018-11-29T23:50:35.061Z - debug: GET /orderLineItem/findone/701
+2018-11-29T23:51:56.195Z - info: Environment variables loaded.
+2018-11-29T23:51:56.208Z - debug: START routing
+2018-11-29T23:51:56.250Z - debug: END routing
+2018-11-29T23:51:56.251Z - info: Loaded routing.
+2018-11-29T23:51:56.303Z - info: START seeder.
+2018-11-29T23:51:56.308Z - debug: 5 products seeded
+2018-11-29T23:51:56.308Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:51:56.313Z - debug: 5 orders seeded
+2018-11-29T23:51:56.313Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:51:56.316Z - debug: 5 customers seeded
+2018-11-29T23:51:56.316Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:51:56.344Z - debug: 4 orderLineItem seeded
+2018-11-29T23:51:56.344Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:52:02.026Z - debug: GET /orderLineItem/delete/701
+2018-11-29T23:52:02.027Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T23:52:02.028Z - info: RETURNING VIEW FOR {"orderID":701,"lineNumber":1,"productName":"Biryani","quantity":2}
+2018-11-29T23:52:33.009Z - debug: GET /
+2018-11-29T23:52:37.479Z - debug: GET /orderLineItem
+2018-11-29T23:53:09.129Z - debug: GET /orderLineItem
+2018-11-29T23:53:18.691Z - debug: GET /orderLineItem/findall
