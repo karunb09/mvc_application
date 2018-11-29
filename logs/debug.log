@@ -3838,3 +3838,420 @@ Error: listen EADDRINUSE :::8081
 2018-11-29T22:38:44.547Z - info: END Seeder. Sample data read and verified.
 2018-11-29T22:38:53.244Z - debug: GET /
 >>>>>>> 6cde0eff26c08503069f45a4d649ed5779035385
+2018-11-29T22:48:43.227Z - info: Environment variables loaded.
+2018-11-29T22:48:43.237Z - debug: START routing
+2018-11-29T22:48:43.260Z - debug: END routing
+2018-11-29T22:48:43.260Z - info: Loaded routing.
+2018-11-29T22:48:43.295Z - info: START seeder.
+2018-11-29T22:48:43.298Z - debug: 5 products seeded
+2018-11-29T22:48:43.298Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:48:43.300Z - debug: 5 orders seeded
+2018-11-29T22:48:43.300Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:48:43.301Z - debug: 5 customers seeded
+2018-11-29T22:48:43.301Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:48:43.302Z - debug: 4 orderLineItem seeded
+2018-11-29T22:48:43.303Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:48:49.022Z - debug: GET /
+2018-11-29T22:48:54.439Z - debug: GET /customer
+2018-11-29T22:48:57.051Z - debug: GET /customerz
+2018-11-29T22:48:59.633Z - debug: GET /customers
+2018-11-29T22:49:04.367Z - debug: GET /customers/findall
+2018-11-29T22:49:10.679Z - debug: GET /customer
+2018-11-29T22:49:54.178Z - info: Environment variables loaded.
+2018-11-29T22:49:54.185Z - debug: START routing
+2018-11-29T22:49:54.212Z - debug: END routing
+2018-11-29T22:49:54.212Z - info: Loaded routing.
+2018-11-29T22:49:54.244Z - info: START seeder.
+2018-11-29T22:49:54.249Z - debug: 5 products seeded
+2018-11-29T22:49:54.249Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:49:54.252Z - debug: 5 orders seeded
+2018-11-29T22:49:54.252Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:49:54.255Z - debug: 5 customers seeded
+2018-11-29T22:49:54.255Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:49:54.256Z - debug: 4 orderLineItem seeded
+2018-11-29T22:49:54.256Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:49:56.833Z - info: Environment variables loaded.
+2018-11-29T22:49:56.845Z - debug: START routing
+2018-11-29T22:49:56.873Z - debug: END routing
+2018-11-29T22:49:56.873Z - info: Loaded routing.
+2018-11-29T22:49:56.902Z - info: START seeder.
+2018-11-29T22:49:56.905Z - debug: 5 products seeded
+2018-11-29T22:49:56.905Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:49:56.906Z - debug: 5 orders seeded
+2018-11-29T22:49:56.906Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:49:56.907Z - debug: 5 customers seeded
+2018-11-29T22:49:56.907Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:49:56.908Z - debug: 4 orderLineItem seeded
+2018-11-29T22:49:56.909Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:50:24.510Z - info: Environment variables loaded.
+2018-11-29T22:50:24.517Z - debug: START routing
+2018-11-29T22:50:24.545Z - debug: END routing
+2018-11-29T22:50:24.545Z - info: Loaded routing.
+2018-11-29T22:50:24.574Z - info: START seeder.
+2018-11-29T22:50:24.577Z - debug: 5 products seeded
+2018-11-29T22:50:24.577Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:50:24.579Z - debug: 5 orders seeded
+2018-11-29T22:50:24.579Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:50:24.581Z - debug: 5 customers seeded
+2018-11-29T22:50:24.581Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:50:24.583Z - debug: 4 orderLineItem seeded
+2018-11-29T22:50:24.583Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:22.777Z - info: Environment variables loaded.
+2018-11-29T22:54:22.790Z - debug: START routing
+2018-11-29T22:54:22.816Z - debug: END routing
+2018-11-29T22:54:22.816Z - info: Loaded routing.
+2018-11-29T22:54:22.855Z - info: START seeder.
+2018-11-29T22:54:22.863Z - debug: 5 products seeded
+2018-11-29T22:54:22.863Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:22.864Z - debug: 5 orders seeded
+2018-11-29T22:54:22.864Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:22.866Z - debug: 5 customers seeded
+2018-11-29T22:54:22.866Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:22.868Z - debug: 4 orderLineItem seeded
+2018-11-29T22:54:22.868Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:27.062Z - info: Environment variables loaded.
+2018-11-29T22:54:27.071Z - debug: START routing
+2018-11-29T22:54:27.110Z - debug: END routing
+2018-11-29T22:54:27.110Z - info: Loaded routing.
+2018-11-29T22:54:27.147Z - info: START seeder.
+2018-11-29T22:54:27.149Z - debug: 5 products seeded
+2018-11-29T22:54:27.149Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:27.151Z - debug: 5 orders seeded
+2018-11-29T22:54:27.151Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:27.153Z - debug: 5 customers seeded
+2018-11-29T22:54:27.153Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:27.154Z - debug: 4 orderLineItem seeded
+2018-11-29T22:54:27.154Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:49.569Z - info: Environment variables loaded.
+2018-11-29T22:54:49.578Z - debug: START routing
+2018-11-29T22:54:49.629Z - debug: END routing
+2018-11-29T22:54:49.629Z - info: Loaded routing.
+2018-11-29T22:54:49.676Z - info: START seeder.
+2018-11-29T22:54:49.679Z - debug: 5 products seeded
+2018-11-29T22:54:49.679Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:49.680Z - debug: 5 orders seeded
+2018-11-29T22:54:49.680Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:49.682Z - debug: 5 customers seeded
+2018-11-29T22:54:49.682Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:49.683Z - debug: 4 orderLineItem seeded
+2018-11-29T22:54:49.683Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:53.818Z - info: Environment variables loaded.
+2018-11-29T22:54:53.828Z - debug: START routing
+2018-11-29T22:54:53.851Z - debug: END routing
+2018-11-29T22:54:53.852Z - info: Loaded routing.
+2018-11-29T22:54:53.879Z - info: START seeder.
+2018-11-29T22:54:53.882Z - debug: 5 products seeded
+2018-11-29T22:54:53.882Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:53.884Z - debug: 5 orders seeded
+2018-11-29T22:54:53.884Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:53.885Z - debug: 5 customers seeded
+2018-11-29T22:54:53.885Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:54:53.887Z - debug: 4 orderLineItem seeded
+2018-11-29T22:54:53.887Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:00.569Z - info: Environment variables loaded.
+2018-11-29T22:55:00.581Z - debug: START routing
+2018-11-29T22:55:00.609Z - debug: END routing
+2018-11-29T22:55:00.609Z - info: Loaded routing.
+2018-11-29T22:55:00.642Z - info: START seeder.
+2018-11-29T22:55:00.646Z - debug: 5 products seeded
+2018-11-29T22:55:00.646Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:00.649Z - debug: 5 orders seeded
+2018-11-29T22:55:00.649Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:00.651Z - debug: 5 customers seeded
+2018-11-29T22:55:00.652Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:00.654Z - debug: 4 orderLineItem seeded
+2018-11-29T22:55:00.654Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:02.053Z - debug: GET /customer
+2018-11-29T22:55:07.991Z - debug: GET /customer/findall
+2018-11-29T22:55:33.348Z - debug: GET /customer/findone/101
+2018-11-29T22:55:53.220Z - info: Environment variables loaded.
+2018-11-29T22:55:53.229Z - debug: START routing
+2018-11-29T22:55:53.268Z - debug: END routing
+2018-11-29T22:55:53.268Z - info: Loaded routing.
+2018-11-29T22:55:53.317Z - info: START seeder.
+2018-11-29T22:55:53.320Z - debug: 5 products seeded
+2018-11-29T22:55:53.320Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:53.321Z - debug: 5 orders seeded
+2018-11-29T22:55:53.321Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:53.323Z - debug: 5 customers seeded
+2018-11-29T22:55:53.323Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:53.324Z - debug: 4 orderLineItem seeded
+2018-11-29T22:55:53.324Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:55:57.562Z - debug: GET /customer/findone/101
+2018-11-29T22:57:00.287Z - info: Environment variables loaded.
+2018-11-29T22:57:00.294Z - debug: START routing
+2018-11-29T22:57:00.320Z - debug: END routing
+2018-11-29T22:57:00.320Z - info: Loaded routing.
+2018-11-29T22:57:00.347Z - info: START seeder.
+2018-11-29T22:57:00.350Z - debug: 5 products seeded
+2018-11-29T22:57:00.350Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:00.351Z - debug: 5 orders seeded
+2018-11-29T22:57:00.351Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:00.352Z - debug: 5 customers seeded
+2018-11-29T22:57:00.352Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:00.354Z - debug: 4 orderLineItem seeded
+2018-11-29T22:57:00.354Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:15.105Z - info: Environment variables loaded.
+2018-11-29T22:57:15.112Z - debug: START routing
+2018-11-29T22:57:15.138Z - debug: END routing
+2018-11-29T22:57:15.138Z - info: Loaded routing.
+2018-11-29T22:57:15.166Z - info: START seeder.
+2018-11-29T22:57:15.169Z - debug: 5 products seeded
+2018-11-29T22:57:15.169Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:15.170Z - debug: 5 orders seeded
+2018-11-29T22:57:15.170Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:15.172Z - debug: 5 customers seeded
+2018-11-29T22:57:15.172Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:15.173Z - debug: 4 orderLineItem seeded
+2018-11-29T22:57:15.173Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:18.810Z - info: Environment variables loaded.
+2018-11-29T22:57:18.821Z - debug: START routing
+2018-11-29T22:57:18.844Z - debug: END routing
+2018-11-29T22:57:18.844Z - info: Loaded routing.
+2018-11-29T22:57:18.871Z - info: START seeder.
+2018-11-29T22:57:18.874Z - debug: 5 products seeded
+2018-11-29T22:57:18.874Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:18.875Z - debug: 5 orders seeded
+2018-11-29T22:57:18.875Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:18.876Z - debug: 5 customers seeded
+2018-11-29T22:57:18.876Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:18.878Z - debug: 4 orderLineItem seeded
+2018-11-29T22:57:18.878Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:31.667Z - info: Environment variables loaded.
+2018-11-29T22:57:31.675Z - debug: START routing
+2018-11-29T22:57:31.699Z - debug: END routing
+2018-11-29T22:57:31.699Z - info: Loaded routing.
+2018-11-29T22:57:31.727Z - info: START seeder.
+2018-11-29T22:57:31.730Z - debug: 5 products seeded
+2018-11-29T22:57:31.730Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:31.732Z - debug: 5 orders seeded
+2018-11-29T22:57:31.732Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:31.733Z - debug: 5 customers seeded
+2018-11-29T22:57:31.733Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:31.735Z - debug: 4 orderLineItem seeded
+2018-11-29T22:57:31.735Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:37.584Z - info: Environment variables loaded.
+2018-11-29T22:57:37.595Z - debug: START routing
+2018-11-29T22:57:37.618Z - debug: END routing
+2018-11-29T22:57:37.618Z - info: Loaded routing.
+2018-11-29T22:57:37.646Z - info: START seeder.
+2018-11-29T22:57:37.649Z - debug: 5 products seeded
+2018-11-29T22:57:37.649Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:37.650Z - debug: 5 orders seeded
+2018-11-29T22:57:37.650Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:37.651Z - debug: 5 customers seeded
+2018-11-29T22:57:37.651Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:57:37.653Z - debug: 4 orderLineItem seeded
+2018-11-29T22:57:37.653Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:58:00.307Z - info: Environment variables loaded.
+2018-11-29T22:58:00.315Z - debug: START routing
+2018-11-29T22:58:00.340Z - debug: END routing
+2018-11-29T22:58:00.340Z - info: Loaded routing.
+2018-11-29T22:58:00.367Z - info: START seeder.
+2018-11-29T22:58:00.370Z - debug: 5 products seeded
+2018-11-29T22:58:00.370Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:58:00.372Z - debug: 5 orders seeded
+2018-11-29T22:58:00.372Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:58:00.373Z - debug: 5 customers seeded
+2018-11-29T22:58:00.373Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:58:00.374Z - debug: 4 orderLineItem seeded
+2018-11-29T22:58:00.374Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:00:25.884Z - debug: GET /customer/findall
+2018-11-29T23:00:28.386Z - debug: GET /customer/
+2018-11-29T23:00:32.701Z - debug: GET /customer
+2018-11-29T23:00:35.269Z - debug: GET /
+2018-11-29T23:00:37.309Z - debug: GET /customer
+2018-11-29T23:00:42.969Z - debug: GET /orderLineItem
+2018-11-29T23:03:13.972Z - debug: GET /order
+2018-11-29T23:03:16.279Z - debug: GET /order
+2018-11-29T23:03:20.569Z - debug: GET /customer
+2018-11-29T23:04:00.125Z - info: Environment variables loaded.
+2018-11-29T23:04:00.132Z - debug: START routing
+2018-11-29T23:04:00.161Z - debug: END routing
+2018-11-29T23:04:00.161Z - info: Loaded routing.
+2018-11-29T23:04:00.190Z - info: START seeder.
+2018-11-29T23:04:00.193Z - debug: 5 products seeded
+2018-11-29T23:04:00.193Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:00.196Z - debug: 5 orders seeded
+2018-11-29T23:04:00.196Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:00.197Z - debug: 5 customers seeded
+2018-11-29T23:04:00.197Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:00.198Z - debug: 4 orderLineItem seeded
+2018-11-29T23:04:00.199Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:22.759Z - info: Environment variables loaded.
+2018-11-29T23:04:22.767Z - debug: START routing
+2018-11-29T23:04:22.795Z - debug: END routing
+2018-11-29T23:04:22.795Z - info: Loaded routing.
+2018-11-29T23:04:22.826Z - info: START seeder.
+2018-11-29T23:04:22.828Z - debug: 5 products seeded
+2018-11-29T23:04:22.828Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:22.830Z - debug: 5 orders seeded
+2018-11-29T23:04:22.830Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:22.832Z - debug: 5 customers seeded
+2018-11-29T23:04:22.832Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:22.833Z - debug: 4 orderLineItem seeded
+2018-11-29T23:04:22.833Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:04:30.571Z - debug: GET /order
+2018-11-29T23:06:48.344Z - info: Environment variables loaded.
+2018-11-29T23:06:48.351Z - debug: START routing
+2018-11-29T23:06:48.378Z - debug: END routing
+2018-11-29T23:06:48.379Z - info: Loaded routing.
+2018-11-29T23:06:48.406Z - info: START seeder.
+2018-11-29T23:06:48.409Z - debug: 5 products seeded
+2018-11-29T23:06:48.409Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:48.411Z - debug: 5 orders seeded
+2018-11-29T23:06:48.411Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:48.412Z - debug: 5 customers seeded
+2018-11-29T23:06:48.412Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:48.413Z - debug: 4 orderLineItem seeded
+2018-11-29T23:06:48.413Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:50.921Z - info: Environment variables loaded.
+2018-11-29T23:06:50.930Z - debug: START routing
+2018-11-29T23:06:50.954Z - debug: END routing
+2018-11-29T23:06:50.954Z - info: Loaded routing.
+2018-11-29T23:06:50.980Z - info: START seeder.
+2018-11-29T23:06:50.983Z - debug: 5 products seeded
+2018-11-29T23:06:50.983Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:50.984Z - debug: 5 orders seeded
+2018-11-29T23:06:50.984Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:50.985Z - debug: 5 customers seeded
+2018-11-29T23:06:50.985Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:50.986Z - debug: 4 orderLineItem seeded
+2018-11-29T23:06:50.986Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:56.781Z - info: Environment variables loaded.
+2018-11-29T23:06:56.789Z - debug: START routing
+2018-11-29T23:06:56.814Z - debug: END routing
+2018-11-29T23:06:56.814Z - info: Loaded routing.
+2018-11-29T23:06:56.842Z - info: START seeder.
+2018-11-29T23:06:56.844Z - debug: 5 products seeded
+2018-11-29T23:06:56.845Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:56.846Z - debug: 5 orders seeded
+2018-11-29T23:06:56.846Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:56.847Z - debug: 5 customers seeded
+2018-11-29T23:06:56.848Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:56.849Z - debug: 4 orderLineItem seeded
+2018-11-29T23:06:56.849Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:06:57.423Z - debug: GET /customer
+2018-11-29T23:07:01.904Z - debug: GET /customer
+2018-11-29T23:07:13.460Z - info: Environment variables loaded.
+2018-11-29T23:07:13.469Z - debug: START routing
+2018-11-29T23:07:13.513Z - debug: END routing
+2018-11-29T23:07:13.513Z - info: Loaded routing.
+2018-11-29T23:07:13.543Z - info: START seeder.
+2018-11-29T23:07:13.546Z - debug: 5 products seeded
+2018-11-29T23:07:13.546Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:13.547Z - debug: 5 orders seeded
+2018-11-29T23:07:13.547Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:13.548Z - debug: 5 customers seeded
+2018-11-29T23:07:13.549Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:13.550Z - debug: 4 orderLineItem seeded
+2018-11-29T23:07:13.550Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:19.518Z - info: Environment variables loaded.
+2018-11-29T23:07:19.525Z - debug: START routing
+2018-11-29T23:07:19.559Z - debug: END routing
+2018-11-29T23:07:19.559Z - info: Loaded routing.
+2018-11-29T23:07:19.593Z - info: START seeder.
+2018-11-29T23:07:19.596Z - debug: 5 products seeded
+2018-11-29T23:07:19.596Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:19.597Z - debug: 5 orders seeded
+2018-11-29T23:07:19.597Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:19.600Z - debug: 5 customers seeded
+2018-11-29T23:07:19.600Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:19.601Z - debug: 4 orderLineItem seeded
+2018-11-29T23:07:19.601Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:23.152Z - info: Environment variables loaded.
+2018-11-29T23:07:23.160Z - debug: START routing
+2018-11-29T23:07:23.189Z - debug: END routing
+2018-11-29T23:07:23.189Z - info: Loaded routing.
+2018-11-29T23:07:23.219Z - info: START seeder.
+2018-11-29T23:07:23.222Z - debug: 5 products seeded
+2018-11-29T23:07:23.222Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:23.224Z - debug: 5 orders seeded
+2018-11-29T23:07:23.224Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:23.225Z - debug: 5 customers seeded
+2018-11-29T23:07:23.225Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:23.228Z - debug: 4 orderLineItem seeded
+2018-11-29T23:07:23.228Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:26.646Z - info: Environment variables loaded.
+2018-11-29T23:07:26.656Z - debug: START routing
+2018-11-29T23:07:26.682Z - debug: END routing
+2018-11-29T23:07:26.682Z - info: Loaded routing.
+2018-11-29T23:07:26.710Z - info: START seeder.
+2018-11-29T23:07:26.713Z - debug: 5 products seeded
+2018-11-29T23:07:26.713Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:26.715Z - debug: 5 orders seeded
+2018-11-29T23:07:26.715Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:26.717Z - debug: 5 customers seeded
+2018-11-29T23:07:26.717Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:26.718Z - debug: 4 orderLineItem seeded
+2018-11-29T23:07:26.718Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:29.897Z - info: Environment variables loaded.
+2018-11-29T23:07:29.905Z - debug: START routing
+2018-11-29T23:07:29.942Z - debug: END routing
+2018-11-29T23:07:29.942Z - info: Loaded routing.
+2018-11-29T23:07:29.983Z - info: START seeder.
+2018-11-29T23:07:29.988Z - debug: 5 products seeded
+2018-11-29T23:07:29.988Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:29.992Z - debug: 5 orders seeded
+2018-11-29T23:07:29.992Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:29.995Z - debug: 5 customers seeded
+2018-11-29T23:07:29.996Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:29.998Z - debug: 4 orderLineItem seeded
+2018-11-29T23:07:29.998Z - info: END Seeder. Sample data read and verified.
+2018-11-29T23:07:31.721Z - debug: GET /customer
+2018-11-29T23:07:33.372Z - debug: GET /customer/create
+2018-11-29T23:07:33.372Z - info: Handling GET /create[object Object]
+2018-11-29T23:07:33.375Z - debug: {"customername":"Gary Mehigan","customerAddress":"Flat No:106,Horizons","customerPhoneNumber":6605280901,"customerEmail":"hyndavi@gmail.com","_id":"5c007135dfe8d952987e7348"}
+2018-11-29T23:07:41.048Z - debug: GET /customer
+2018-11-29T23:07:42.783Z - debug: GET /customer/details/104
+2018-11-29T23:07:42.784Z - info: Handling GET /details/:id [object Object]
+2018-11-29T23:07:42.784Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-11-29T23:07:47.899Z - debug: GET /customer?
+2018-11-29T23:07:51.301Z - debug: GET /customer/details/103
+2018-11-29T23:07:51.301Z - info: Handling GET /details/:id [object Object]
+2018-11-29T23:07:51.301Z - info: RETURNING VIEW FOR {"_customerid":103,"customername":"Subash","customerAddress":"Horizons,Missouri","customerPhoneNumber":6605289087,"customerEmail":"Subash@gmail.com"}
+2018-11-29T23:07:53.104Z - debug: GET /customer?
+2018-11-29T23:08:04.945Z - debug: GET /customer/details/104
+2018-11-29T23:08:04.946Z - info: Handling GET /details/:id [object Object]
+2018-11-29T23:08:04.946Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-11-29T23:08:15.836Z - debug: GET /customer?
+2018-11-29T23:08:17.882Z - debug: GET /customer/details/103
+2018-11-29T23:08:17.882Z - info: Handling GET /details/:id [object Object]
+2018-11-29T23:08:17.882Z - info: RETURNING VIEW FOR {"_customerid":103,"customername":"Subash","customerAddress":"Horizons,Missouri","customerPhoneNumber":6605289087,"customerEmail":"Subash@gmail.com"}
+2018-11-29T23:08:18.877Z - debug: GET /customer?
+2018-11-29T23:08:20.360Z - debug: GET /customer/details/102
+2018-11-29T23:08:20.360Z - info: Handling GET /details/:id [object Object]
+2018-11-29T23:08:20.360Z - info: RETURNING VIEW FOR {"_customerid":102,"customername":"karun","customerAddress":"Hyderabad,Telangana","customerPhoneNumber":6605289876,"customerEmail":"karun@gmail.com"}
+2018-11-29T23:08:21.661Z - debug: GET /customer?
+2018-11-29T23:08:23.287Z - debug: GET /customer/details/101
+2018-11-29T23:08:23.287Z - info: Handling GET /details/:id [object Object]
+2018-11-29T23:08:23.287Z - info: RETURNING VIEW FOR {"_customerid":101,"customername":"Sonam","customerAddress":"Delhi,India","customerPhoneNumber":6605281320,"customerEmail":"sonam@gmail.com"}
+2018-11-29T23:08:24.458Z - debug: GET /customer?
+2018-11-29T23:08:26.769Z - debug: GET /customer/edit/104
+2018-11-29T23:08:26.770Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T23:08:26.770Z - info: RETURNING VIEW FOR{"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-11-29T23:08:29.486Z - debug: GET /customer?
+2018-11-29T23:08:52.549Z - debug: GET /customer/edit/103
+2018-11-29T23:08:52.550Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T23:08:52.550Z - info: RETURNING VIEW FOR{"_customerid":103,"customername":"Subash","customerAddress":"Horizons,Missouri","customerPhoneNumber":6605289087,"customerEmail":"Subash@gmail.com"}
+2018-11-29T23:09:22.343Z - debug: GET /customer/edit/103
+2018-11-29T23:09:22.344Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T23:09:22.344Z - info: RETURNING VIEW FOR{"_customerid":103,"customername":"Subash","customerAddress":"Horizons,Missouri","customerPhoneNumber":6605289087,"customerEmail":"Subash@gmail.com"}
+2018-11-29T23:09:43.474Z - debug: GET /customer/edit/103
+2018-11-29T23:09:43.474Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T23:09:43.474Z - info: RETURNING VIEW FOR{"_customerid":103,"customername":"Subash","customerAddress":"Horizons,Missouri","customerPhoneNumber":6605289087,"customerEmail":"Subash@gmail.com"}
+2018-11-29T23:09:47.397Z - debug: GET /customer?
+2018-11-29T23:09:49.461Z - debug: GET /customer/edit/103
+2018-11-29T23:09:49.461Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T23:09:49.461Z - info: RETURNING VIEW FOR{"_customerid":103,"customername":"Subash","customerAddress":"Horizons,Missouri","customerPhoneNumber":6605289087,"customerEmail":"Subash@gmail.com"}
+2018-11-29T23:09:52.321Z - debug: GET /customer/edit/102
+2018-11-29T23:09:52.322Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T23:09:52.322Z - info: RETURNING VIEW FOR{"_customerid":102,"customername":"karun","customerAddress":"Hyderabad,Telangana","customerPhoneNumber":6605289876,"customerEmail":"karun@gmail.com"}
+2018-11-29T23:10:02.485Z - debug: GET /customer/delete/104
+2018-11-29T23:10:02.486Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T23:10:02.486Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-11-29T23:10:04.495Z - debug: GET /customer?
+2018-11-29T23:10:11.068Z - debug: GET /customer?
+2018-11-29T23:10:11.944Z - debug: GET /customer/delete/104
+2018-11-29T23:10:11.944Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T23:10:11.944Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}

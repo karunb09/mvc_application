@@ -6,10 +6,10 @@
     <div class="col col-md-12">
       <h2>Edit customer </h2>
       <div class="content">
-        <form method="POST" action="/customer/save/<%= customer._id %>">
+        <form method="POST" action="/customer/save/<%= customer._customerid %>">
           <div class="form-group" id=frm>
             <label for="_id">ID</label>
-            <input type="number" class="form-control" id="_id" name="_id" value="<%= customer._id %>" required disabled>
+            <input type="number" class="form-control" id="_customerid" name="_customerid" value="<%= customer._customerid %>" required disabled>
           </div>
 
             <!-- COMMON TO EDIT AND CREATE -->

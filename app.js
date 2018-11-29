@@ -76,9 +76,9 @@ app.get("/", function (req, res) {
 //   res.render("orderLineItem.ejs")
 //  })
 
- app.get("/customer", function (req, res) {
-  res.render("customer.ejs")
- })
+//  app.get("/customer", function (req, res) {
+//   res.render("customer.ejs")
+//  })
 
  app.get("/about", function (req, res) {
   res.render("aboutus.ejs")

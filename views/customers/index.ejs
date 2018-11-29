@@ -21,7 +21,7 @@
              
               
             ID:
-            <%=  customer._id %>
+            <%=  customer._customerid %>
             <br> customername:
             <%=customer.customername%>
             <br /> customerAddress:
@@ -33,9 +33,9 @@
             <%=customer.customerEmail%>
                     <br/>
                     <br/>
-                          <a href="/customer/delete/<%= customer._id  %>" class="btn btn-danger"> Delete </a>
-                          <a href="/customer/details/<%= customer._id %>" class="btn btn-info"> Details </a>
-                          <a href="/customer/edit/<%= customer._id %>" class="btn btn-warning"> Edit </a>
+                          <a href="/customer/delete/<%= customer._customerid  %>" class="btn btn-danger"> Delete </a>
+                          <a href="/customer/details/<%= customer._customerid %>" class="btn btn-info"> Details </a>
+                          <a href="/customer/edit/<%= customer._customerid %>" class="btn btn-warning"> Edit </a>
           </div>
         </div>
         <% } %>
