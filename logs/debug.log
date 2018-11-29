@@ -3618,3 +3618,68 @@ Error: Cannot find module '../models/order.js'
 2018-11-29T19:31:29.462Z - debug: GET /order
 2018-11-29T19:31:32.177Z - debug: GET /order/edit/104
 2018-11-29T19:31:32.177Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T21:43:43.972Z - info: Environment variables loaded.
+2018-11-29T21:43:47.678Z - info: Environment variables loaded.
+2018-11-29T21:43:47.691Z - debug: START routing
+2018-11-29T21:43:47.735Z - debug: END routing
+2018-11-29T21:43:47.736Z - info: Loaded routing.
+2018-11-29T21:43:47.807Z - info: START seeder.
+2018-11-29T21:43:47.816Z - debug: 5 products seeded
+2018-11-29T21:43:47.816Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:43:47.819Z - debug: 5 orders seeded
+2018-11-29T21:43:47.820Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:43:47.824Z - debug: 5 customers seeded
+2018-11-29T21:43:47.824Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:43:47.830Z - debug: 4 orderLineItem seeded
+2018-11-29T21:43:47.831Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:43:48.104Z - debug: GET /
+2018-11-29T21:43:51.467Z - debug: GET /favicon.ico
+2018-11-29T21:43:54.556Z - debug: GET /order
+2018-11-29T21:43:57.215Z - debug: GET /orderLineItem
+2018-11-29T21:43:58.906Z - debug: GET /order
+2018-11-29T21:44:09.257Z - debug: GET /product
+2018-11-29T21:44:10.852Z - debug: GET /customer
+2018-11-29T21:44:12.100Z - debug: GET /orderLineItem
+2018-11-29T21:44:13.823Z - debug: GET /order
+2018-11-29T21:44:21.251Z - debug: GET /orderLineItem
+2018-11-29T21:44:23.473Z - debug: GET /order
+2018-11-29T21:44:25.939Z - debug: GET /orderLineItem
+2018-11-29T21:44:27.692Z - debug: GET /order
+2018-11-29T21:44:40.072Z - debug: GET /
+2018-11-29T21:44:48.924Z - debug: GET /order
+2018-11-29T21:45:00.545Z - debug: GET /
+2018-11-29T21:45:03.252Z - debug: GET /orderLineItem
+2018-11-29T21:45:14.562Z - debug: GET /orderLineItem/findall
+2018-11-29T21:45:22.689Z - debug: GET /
+2018-11-29T21:45:25.572Z - debug: GET /orderLineItem
+2018-11-29T21:45:27.313Z - debug: GET /order
+2018-11-29T21:45:29.968Z - debug: GET /order/delete/104
+2018-11-29T21:45:29.973Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T21:45:29.977Z - info: RETURNING VIEW FOR {"_orderid":104,"ordername":"Chicken Fry2","orderdate":"1/1/2018","shippingAdress":"H.No:78-110,Krishna Nagar","deliveryDetails":"Jubiliant foods","_productID":"3","cashOnDelivery":600}
+2018-11-29T21:45:32.329Z - debug: GET /order?
+2018-11-29T21:52:54.719Z - info: Environment variables loaded.
+2018-11-29T21:52:54.735Z - debug: START routing
+2018-11-29T21:52:54.788Z - debug: END routing
+2018-11-29T21:52:54.788Z - info: Loaded routing.
+2018-11-29T21:52:54.852Z - info: START seeder.
+2018-11-29T21:52:54.860Z - debug: 5 products seeded
+2018-11-29T21:52:54.860Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:52:54.864Z - debug: 5 orders seeded
+2018-11-29T21:52:54.865Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:52:54.869Z - debug: 5 customers seeded
+2018-11-29T21:52:54.869Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:52:54.884Z - debug: 4 orderLineItem seeded
+2018-11-29T21:52:54.884Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:54:29.346Z - info: Environment variables loaded.
+2018-11-29T21:54:29.359Z - debug: START routing
+2018-11-29T21:54:29.403Z - debug: END routing
+2018-11-29T21:54:29.403Z - info: Loaded routing.
+2018-11-29T21:54:29.447Z - info: START seeder.
+2018-11-29T21:54:29.452Z - debug: 5 products seeded
+2018-11-29T21:54:29.453Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:54:29.455Z - debug: 5 orders seeded
+2018-11-29T21:54:29.456Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:54:29.458Z - debug: 5 customers seeded
+2018-11-29T21:54:29.458Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:54:29.462Z - debug: 4 orderLineItem seeded
+2018-11-29T21:54:29.462Z - info: END Seeder. Sample data read and verified.

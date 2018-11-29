@@ -2,9 +2,10 @@
 const Datastore = require('nedb')
 const LOG = require('../utils/logger.js')
 const products = require('../data/products.json')
+const orderLineItem = require('../data/orderLineItem.json')
 const orders = require('../data/orders.json')
 const customers = require('../data/customers.json')
-const orderLineItem = require('../data/orderLineItem.json')
+
 
 module.exports = (app) => {
   LOG.info('START seeder.')
