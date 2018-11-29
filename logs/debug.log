@@ -3735,3 +3735,55 @@ Error: Cannot find module '../models/order.js'
 2018-11-29T21:58:48.004Z - info: END Seeder. Sample data read and verified.
 2018-11-29T21:58:48.017Z - debug: 4 orderLineItem seeded
 2018-11-29T21:58:48.017Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:05:51.166Z - info: Environment variables loaded.
+2018-11-29T22:05:51.286Z - error: uncaughtException: listen EADDRINUSE :::8081 date=Thu Nov 29 2018 16:05:51 GMT-0600 (Central Standard Time), pid=26024, uid=null, gid=null, cwd=C:\masters\WT_44-563\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\masters\WT_44-563\onlineorder\app.js], rss=71573504, heapTotal=62304256, heapUsed=39740368, external=19677528, loadavg=[0, 0, 0], uptime=1371637.7577863
+Error: listen EADDRINUSE :::8081
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Function.listen (C:\masters\WT_44-563\onlineorder\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\masters\WT_44-563\onlineorder\app.js:111:6)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-29T22:05:51.175Z - debug: START routing
+2018-11-29T22:05:51.200Z - debug: END routing
+2018-11-29T22:05:51.200Z - info: Loaded routing.
+2018-11-29T22:05:51.231Z - info: START seeder.
+2018-11-29T22:05:51.234Z - debug: 5 products seeded
+2018-11-29T22:05:51.234Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:05:51.237Z - debug: 5 orders seeded
+2018-11-29T22:05:51.237Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:05:51.238Z - debug: 5 customers seeded
+2018-11-29T22:05:51.239Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:05:51.241Z - debug: 4 orderLineItem seeded
+2018-11-29T22:05:51.241Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:06:20.346Z - info: Environment variables loaded.
+2018-11-29T22:06:20.353Z - debug: START routing
+2018-11-29T22:06:20.377Z - debug: END routing
+2018-11-29T22:06:20.377Z - info: Loaded routing.
+2018-11-29T22:06:20.411Z - info: START seeder.
+2018-11-29T22:06:20.414Z - debug: 5 products seeded
+2018-11-29T22:06:20.414Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:06:20.416Z - debug: 5 orders seeded
+2018-11-29T22:06:20.416Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:06:20.419Z - debug: 5 customers seeded
+2018-11-29T22:06:20.419Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:06:20.420Z - debug: 4 orderLineItem seeded
+2018-11-29T22:06:20.421Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:06:27.242Z - debug: GET /
+2018-11-29T22:06:34.079Z - debug: GET /orderLineItem
+2018-11-29T22:06:43.100Z - debug: GET /order
+2018-11-29T22:06:46.459Z - debug: GET /orderLineItem
+2018-11-29T22:06:51.749Z - debug: GET /orderLineItem/create
+2018-11-29T22:06:51.751Z - info: Handling GET /create[object Object]
+2018-11-29T22:06:51.758Z - debug: {"quantity":1,"_id":"5c0062fbac07ae8a75dcbbb1"}
+2018-11-29T22:06:57.107Z - debug: GET /orderLineItem/delete/701
+2018-11-29T22:06:57.109Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T22:06:57.113Z - info: RETURNING VIEW FOR {"orderID":701,"lineNumber":1,"productName":"Biryani","quantity":2}
+2018-11-29T22:07:03.608Z - debug: GET /orderLineItem/findall
