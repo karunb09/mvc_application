@@ -3683,3 +3683,55 @@ Error: Cannot find module '../models/order.js'
 2018-11-29T21:54:29.458Z - info: END Seeder. Sample data read and verified.
 2018-11-29T21:54:29.462Z - debug: 4 orderLineItem seeded
 2018-11-29T21:54:29.462Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:57:13.706Z - info: Environment variables loaded.
+2018-11-29T21:57:13.722Z - debug: START routing
+2018-11-29T21:57:13.762Z - debug: END routing
+2018-11-29T21:57:13.763Z - info: Loaded routing.
+2018-11-29T21:57:13.791Z - info: START seeder.
+2018-11-29T21:57:13.797Z - debug: 5 products seeded
+2018-11-29T21:57:13.797Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:57:13.799Z - debug: 5 orders seeded
+2018-11-29T21:57:13.799Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:57:13.801Z - debug: 5 customers seeded
+2018-11-29T21:57:13.801Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:57:13.804Z - debug: 4 orderLineItem seeded
+2018-11-29T21:57:13.804Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:05.885Z - info: Environment variables loaded.
+2018-11-29T21:58:05.899Z - debug: START routing
+2018-11-29T21:58:05.942Z - debug: END routing
+2018-11-29T21:58:05.942Z - info: Loaded routing.
+2018-11-29T21:58:05.985Z - info: START seeder.
+2018-11-29T21:58:05.991Z - debug: 5 products seeded
+2018-11-29T21:58:05.991Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:05.994Z - debug: 5 orders seeded
+2018-11-29T21:58:05.994Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:05.997Z - debug: 5 customers seeded
+2018-11-29T21:58:05.997Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:06.001Z - debug: 4 orderLineItem seeded
+2018-11-29T21:58:06.001Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:11.082Z - info: Environment variables loaded.
+2018-11-29T21:58:11.092Z - debug: START routing
+2018-11-29T21:58:11.142Z - debug: END routing
+2018-11-29T21:58:11.143Z - info: Loaded routing.
+2018-11-29T21:58:11.186Z - info: START seeder.
+2018-11-29T21:58:11.192Z - debug: 5 products seeded
+2018-11-29T21:58:11.192Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:11.194Z - debug: 5 orders seeded
+2018-11-29T21:58:11.194Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:11.202Z - debug: 5 customers seeded
+2018-11-29T21:58:11.202Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:11.205Z - debug: 4 orderLineItem seeded
+2018-11-29T21:58:11.205Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:47.893Z - info: Environment variables loaded.
+2018-11-29T21:58:47.905Z - debug: START routing
+2018-11-29T21:58:47.943Z - debug: END routing
+2018-11-29T21:58:47.944Z - info: Loaded routing.
+2018-11-29T21:58:47.993Z - info: START seeder.
+2018-11-29T21:58:47.998Z - debug: 5 products seeded
+2018-11-29T21:58:47.999Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:48.001Z - debug: 5 orders seeded
+2018-11-29T21:58:48.001Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:48.004Z - debug: 5 customers seeded
+2018-11-29T21:58:48.004Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:58:48.017Z - debug: 4 orderLineItem seeded
+2018-11-29T21:58:48.017Z - info: END Seeder. Sample data read and verified.
