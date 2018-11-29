@@ -1,0 +1,25 @@
+<div class=row>
+  <div class="col-xs-12 col-md-10 col-lg-9">
+    <div class="form-group">
+      <label for="ordername">OrderName</label>
+      <input type="text" class="form-control" id="ordername" name="ordername" value="<%= order.ordername %>" required>
+    </div>
+    <div class="form-group">
+      <label for="orderdate">DatePlaced</label>
+      <input type="date" class="form-control" id="orderdate" name="orderdate" value="<%= order.orderdate %>"
+        required>
+    </div>
+    <div class="form-group">
+      <label for="shippingAdress">ShippingAdress</label>
+      <input type="text" class="form-control" id="shippingAdress" name="shippingAdress" value="<%= order.shippingAdress %>">
+    </div>
+    <div class="form-group">
+      <label for="deliveryDetails">deliveryDetails</label>
+      <input type="text" class="form-control" id="deliveryDetails" name="deliveryDetails" value="<%= order.deliveryDetails %>" required>
+    </div>
+	<div class="form-group">
+      <label for="cashOnDelivery">CashOnDelivery</label>
+      <input type="text" class="form-control" id="cashOnDelivery" name="cashOnDelivery" value="<%= order.cashOnDelivery %>" required>
+    </div>
+  </div>
+</div>

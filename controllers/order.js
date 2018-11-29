@@ -20,7 +20,7 @@ api.get('/findone/:id', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.orders.query
-  const item = find(data, { _id: id })
+  const item = find(data, { _orderid: id })
   if (!item) { return res.end(notfoundstring) }
   res.send(JSON.stringify(item))
 })
@@ -50,7 +50,7 @@ api.get('/delete/:id', (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.orders.query
-  const item = find(data, { _id: id })
+  const item = find(data, { _orderid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
   return res.render('order/delete.ejs',
@@ -66,7 +66,7 @@ api.get('/details/:id', (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.orders.query
-  const item = find(data, { _id: id })
+  const item = find(data, { _orderid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
   return res.render('order/details.ejs',
@@ -82,7 +82,7 @@ api.get('/edit/:id', (req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.orders.query
-  const item = find(data, { _id: id })
+  const item = find(data, { _orderid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
   return res.render('order/edit.ejs',
@@ -101,14 +101,15 @@ api.post('/save', (req, res) => {
   LOG.debug(JSON.stringify(req.body))
   const data = req.app.locals.orders.query
   const item = new Model()
-  LOG.info(`NEW ID ${req.body._id}`)
-  item._id = parseInt(req.body._id, 10) // base 10
-  item.firstname = req.body.firstname
-  item.lastname = req.body.lastname
-  item.datePlaced = req.body.datePlaced
-  item.dateShipped = req.body.dateShipped
-  item.paymentType = req.body.paymentType
-  item.paid = req.body.paid
+  LOG.info(`NEW ID ${req.body._orderid}`)
+  item._orderid = parseInt(req.body._orderid, 10) // base 10
+//  item._orderid = req.body._orderid
+  item.ordername = req.body.ordername
+  item.orderdate = req.body.orderdate
+  item.shippingAdress = req.body.shippingAdress
+  item.deliveryDetails = req.body.deliveryDetails
+  item._productID = req.body._productID
+  item.cashOnDelivery = req.body.cashOnDelivery
     data.push(item)
     LOG.info(`SAVING NEW order ${JSON.stringify(item)}`)
     return res.redirect('/order')
@@ -120,16 +121,16 @@ api.post('/save/:id', (req, res) => {
   const id = parseInt(req.params.id, 10) // base 10
   LOG.info(`Handling SAVING ID=${id}`)
   const data = req.app.locals.orders.query
-  const item = find(data, { _id: id })
+  const item = find(data, { _orderid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
   LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
-  item.firstname = req.body.firstname
-  item.lastname = req.body.lastname
-  item.datePlaced = req.body.datePlaced
-  item.dateShipped = req.body.dateShipped
-  item.paymentType = req.body.paymentType
-  item.paid = req.body.paid
+  item.ordername = req.body.ordername
+  item.orderdate = req.body.orderdate
+  item.shippingAdress = req.body.shippingAdress
+  item.deliveryDetails = req.body.deliveryDetails
+  item._productID = req.body._productID
+  item.cashOnDelivery = req.body.cashOnDelivery
     LOG.info(`SAVING UPDATED orderLine ${JSON.stringify(item)}`)
     return res.redirect('/order')
 })
@@ -140,7 +141,7 @@ api.post('/delete/:id', (req, res) => {
   const id = parseInt(req.params.id, 10) // base 10
   LOG.info(`Handling REMOVING ID=${id}`)
   const data = req.app.locals.orders.query
-  const item = find(data, { _id: id })
+  const item = find(data, { _orderid: id })
   if (!item) {
     return res.end(notfoundstring)
   }
@@ -148,7 +149,7 @@ api.post('/delete/:id', (req, res) => {
     item.isActive = false
     console.log(`Deacctivated item ${JSON.stringify(item)}`)
   } else {
-    const item = remove(data, { _id: id })
+    const item = remove(data, { _orderid: id })
     console.log(`Permanently deleted item ${JSON.stringify(item)}`)
   }
   return res.redirect('/order')

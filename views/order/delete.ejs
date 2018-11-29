@@ -1,0 +1,26 @@
+<br />
+<h2>Delete an Order</h2>
+<br />
+<br /> OrderID:
+<%=  order._orderid %>
+<br> OrderName:
+<%=order.ordername%>
+<br /> DatePlaced:
+<%=order.orderdate%>
+<br /> ShippingAdress:
+<%=order.dateShipped%>
+<br /> deliveryDetails:
+<%=order.deliveryDetails%>
+<br /> CashOnDelivery:
+<%=order.cashOnDelivery%>
+<br />
+<br />
+
+<form method="get" action="/order">
+  <input type="submit" value="Return to list" class="btn btn-caution" />
+</form>
+
+<br />
+<form method="POST" action="/order/delete/<%= order._orderid %>">
+  <input type="submit" value="Delete an Order" class="btn btn-danger pull-right" />
+</form>

@@ -3579,3 +3579,42 @@ Error: Cannot find module '../models/order.js'
 2018-11-28T18:34:49.521Z - debug: GET /orderLineItem
 2018-11-28T18:35:24.741Z - debug: GET /orderLineItem
 2018-11-28T18:35:28.674Z - debug: GET /orderLineItem/findall
+2018-11-29T19:30:51.652Z - info: Environment variables loaded.
+2018-11-29T19:30:51.668Z - debug: START routing
+2018-11-29T19:30:51.724Z - debug: END routing
+2018-11-29T19:30:51.724Z - info: Loaded routing.
+2018-11-29T19:30:51.783Z - info: START seeder.
+2018-11-29T19:30:51.792Z - debug: 5 products seeded
+2018-11-29T19:30:51.792Z - info: END Seeder. Sample data read and verified.
+2018-11-29T19:30:51.795Z - debug: 5 orders seeded
+2018-11-29T19:30:51.795Z - info: END Seeder. Sample data read and verified.
+2018-11-29T19:30:51.800Z - debug: 5 customers seeded
+2018-11-29T19:30:51.800Z - info: END Seeder. Sample data read and verified.
+2018-11-29T19:30:51.805Z - debug: 4 orderLineItem seeded
+2018-11-29T19:30:51.806Z - info: END Seeder. Sample data read and verified.
+2018-11-29T19:30:57.486Z - debug: GET /
+2018-11-29T19:31:00.116Z - debug: GET /order
+2018-11-29T19:31:02.548Z - debug: GET /order/create
+2018-11-29T19:31:02.549Z - info: Handling GET /create[object Object]
+2018-11-29T19:31:02.563Z - debug: {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":0,"_id":"5c003e76b59d1dc9213d5a08","orderdate":"2018-11-29T19:31:02.560Z"}
+2018-11-29T19:31:16.841Z - debug: POST /order/save
+2018-11-29T19:31:16.842Z - info: Handling POST [object Object]
+2018-11-29T19:31:16.842Z - debug: {"_orderid":"105","ordername":"Chicken Biriyani","orderdate":"1999-12-13","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":"600"}
+2018-11-29T19:31:16.843Z - info: NEW ID 105
+2018-11-29T19:31:16.846Z - info: SAVING NEW order {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":600,"_id":"5c003e84b59d1dc9213d5a09","orderdate":"1999-12-13T00:00:00.000Z","_orderid":105}
+2018-11-29T19:31:16.896Z - debug: GET /order
+2018-11-29T19:31:20.782Z - debug: GET /order/details/105
+2018-11-29T19:31:20.783Z - info: Handling GET /details/:id [object Object]
+2018-11-29T19:31:20.785Z - info: RETURNING VIEW FOR {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":600,"_id":"5c003e84b59d1dc9213d5a09","orderdate":"1999-12-13T00:00:00.000Z","_orderid":105}
+2018-11-29T19:31:22.620Z - debug: GET /order?
+2018-11-29T19:31:24.362Z - debug: GET /order/edit/105
+2018-11-29T19:31:24.363Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T19:31:28.000Z - debug: GET /order/delete/105
+2018-11-29T19:31:28.001Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T19:31:28.001Z - info: RETURNING VIEW FOR {"ordername":"Chicken Biriyani","shippingAdress":"H.No:78-110,kurnool","deliveryDetails":"ABC delivery Company,Executive: Ram","cashOnDelivery":600,"_id":"5c003e84b59d1dc9213d5a09","orderdate":"1999-12-13T00:00:00.000Z","_orderid":105}
+2018-11-29T19:31:29.454Z - debug: POST /order/delete/105
+2018-11-29T19:31:29.454Z - info: Handling DELETE request [object Object]
+2018-11-29T19:31:29.455Z - info: Handling REMOVING ID=105
+2018-11-29T19:31:29.462Z - debug: GET /order
+2018-11-29T19:31:32.177Z - debug: GET /order/edit/104
+2018-11-29T19:31:32.177Z - info: Handling GET /edit/:id [object Object]
