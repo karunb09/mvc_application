@@ -32,7 +32,7 @@ Page 4:  Product
 
 -Karun Bourishetty—OrderLineItem
 
--Hyndavi Mumsipatla-Customer
+-Hyndavi Musipatla-Customer
 
 -Jeevan Sai Subhash Veeramachaneni-Product.
 

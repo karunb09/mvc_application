@@ -20,6 +20,7 @@ router.get('/', (req, res, next) => {
 router.use('/order', require('../controllers/order.js'))
 
 router.use('/orderLineItem', require('../controllers/orderLineItem.js'))
+router.use('/customer', require('../controllers/customer.js'))
 
 
 LOG.debug('END routing')
