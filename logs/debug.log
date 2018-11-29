@@ -3787,3 +3787,17 @@ Error: listen EADDRINUSE :::8081
 2018-11-29T22:06:57.109Z - info: Handling GET /delete/:id [object Object]
 2018-11-29T22:06:57.113Z - info: RETURNING VIEW FOR {"orderID":701,"lineNumber":1,"productName":"Biryani","quantity":2}
 2018-11-29T22:07:03.608Z - debug: GET /orderLineItem/findall
+2018-11-29T22:38:44.473Z - info: Environment variables loaded.
+2018-11-29T22:38:44.482Z - debug: START routing
+2018-11-29T22:38:44.509Z - debug: END routing
+2018-11-29T22:38:44.509Z - info: Loaded routing.
+2018-11-29T22:38:44.538Z - info: START seeder.
+2018-11-29T22:38:44.542Z - debug: 5 products seeded
+2018-11-29T22:38:44.542Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:38:44.544Z - debug: 5 orders seeded
+2018-11-29T22:38:44.544Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:38:44.545Z - debug: 5 customers seeded
+2018-11-29T22:38:44.545Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:38:44.547Z - debug: 4 orderLineItem seeded
+2018-11-29T22:38:44.547Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:38:53.244Z - debug: GET /
