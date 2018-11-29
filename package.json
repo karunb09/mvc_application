@@ -5,7 +5,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/professorcase/node-express-mvc-ejs-start"
+    "url": "https://bitbucket.org/S533490/onlineorder/src/master/"
   },
   "license": "Apache-2.0",
   "engines": {
