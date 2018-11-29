@@ -1,0 +1,9 @@
+
+image: node:8.12.0
+
+pipelines:
+  default:
+    - step:
+      
+        script: 
+        - git push https://heroku:e7c3ff3a-14c2-4282-9cf7-bcfd67b2ee1b@git.heroku.com/online-order1.git HEAD
