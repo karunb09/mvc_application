@@ -5,7 +5,7 @@
     <div class="col col-md-12">
       <h2>Edit Orderlineitem </h2>
       <div class="content">
-        <form method="POST" action="http://localhost:8081/orderLineItem/save/<%= orderLineItem.orderID %>">
+        <form method="POST" action="/orderLineItem/save/<%= orderLineItem.orderID %>">
           <div class="form-group" id=frm>
             <label for="orderID">ID</label>
             <input type="number" class="form-control" id="orderID" name="orderID" value="<%= orderLineItem.orderID %>" required disabled>
@@ -18,7 +18,7 @@
         </form>
         <br/>
 
-        <form method="get" action="http://localhost:8081/orderLineItem">
+        <form method="get" action="/orderLineItem">
           <input type="submit" value="Return to list" class="btn btn-caution" />
         </form>
       </div>

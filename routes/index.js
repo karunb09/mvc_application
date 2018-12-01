@@ -23,8 +23,12 @@ router.get('/product', function (req, res){
 })
 
 router.use('/orderLineItem', require('../controllers/orderLineItem.js'))
+<<<<<<< HEAD
 router.use('/product', require('../controllers/product.js'))
 
+=======
+router.use('/customer', require('../controllers/customer.js'))
+>>>>>>> 8aed3409082d22aca7aa449da4ab783247119332
 
 
 LOG.debug('END routing')
