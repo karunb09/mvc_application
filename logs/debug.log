@@ -4750,3 +4750,42 @@ SyntaxError: Unexpected token <<
 2018-12-01T01:34:40.964Z - debug: 4 orderLineItem seeded
 2018-12-01T01:34:40.964Z - info: END Seeder. Sample data read and verified.
 2018-12-01T01:34:44.982Z - debug: GET /
+2018-12-01T01:52:58.115Z - info: Environment variables loaded.
+2018-12-01T01:52:58.122Z - debug: START routing
+2018-12-01T01:52:58.153Z - debug: END routing
+2018-12-01T01:52:58.153Z - info: Loaded routing.
+2018-12-01T01:52:58.192Z - info: START seeder.
+2018-12-01T01:52:58.196Z - debug: 5 products seeded
+2018-12-01T01:52:58.196Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:52:58.198Z - debug: 5 orders seeded
+2018-12-01T01:52:58.198Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:52:58.200Z - debug: 5 customers seeded
+2018-12-01T01:52:58.200Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:52:58.202Z - debug: 4 orderLineItem seeded
+2018-12-01T01:52:58.202Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:53:00.974Z - debug: GET /
+2018-12-01T01:53:02.729Z - debug: GET /product
+2018-12-01T01:53:04.198Z - debug: GET /product/details/
+2018-12-01T01:55:30.381Z - info: Environment variables loaded.
+2018-12-01T01:55:30.388Z - debug: START routing
+2018-12-01T01:55:30.418Z - debug: END routing
+2018-12-01T01:55:30.418Z - info: Loaded routing.
+2018-12-01T01:55:30.456Z - info: START seeder.
+2018-12-01T01:55:30.460Z - debug: 5 products seeded
+2018-12-01T01:55:30.460Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:55:30.463Z - debug: 5 orders seeded
+2018-12-01T01:55:30.463Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:55:30.465Z - debug: 5 customers seeded
+2018-12-01T01:55:30.465Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:55:30.467Z - debug: 4 orderLineItem seeded
+2018-12-01T01:55:30.467Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:55:33.291Z - debug: GET /product
+2018-12-01T01:55:34.137Z - debug: GET /product/details/5
+2018-12-01T01:55:34.138Z - info: Handling GET /details/:id [object Object]
+2018-12-01T01:55:34.139Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:55:36.873Z - debug: GET /product/delete/5
+2018-12-01T01:55:36.874Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:55:36.874Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:55:38.769Z - debug: GET /product/edit/5
+2018-12-01T01:55:38.771Z - info: Handling GET /edit/:id [object Object]
+2018-12-01T01:55:38.771Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
