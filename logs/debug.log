@@ -4104,3 +4104,32 @@ Error: Cannot find module '../models/products.js'
 2018-12-01T01:14:47.223Z - debug: GET /product/details/5
 2018-12-01T01:14:47.231Z - info: Handling GET /details/:id [object Object]
 2018-12-01T01:14:47.234Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"12222-12-12","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Foo","sellerId":"5"}
+2018-12-01T01:23:40.256Z - info: Environment variables loaded.
+2018-12-01T01:23:40.267Z - debug: START routing
+2018-12-01T01:23:40.306Z - debug: END routing
+2018-12-01T01:23:40.306Z - info: Loaded routing.
+2018-12-01T01:23:40.351Z - info: START seeder.
+2018-12-01T01:23:40.355Z - debug: 5 products seeded
+2018-12-01T01:23:40.355Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:23:40.358Z - debug: 5 orders seeded
+2018-12-01T01:23:40.358Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:23:40.361Z - debug: 5 customers seeded
+2018-12-01T01:23:40.361Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:23:40.364Z - debug: 4 orderLineItem seeded
+2018-12-01T01:23:40.364Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:23:44.029Z - debug: GET /
+2018-12-01T01:23:47.370Z - debug: GET /product
+2018-12-01T01:25:06.082Z - info: Environment variables loaded.
+2018-12-01T01:25:06.090Z - debug: START routing
+2018-12-01T01:25:06.120Z - debug: END routing
+2018-12-01T01:25:06.120Z - info: Loaded routing.
+2018-12-01T01:25:06.152Z - info: START seeder.
+2018-12-01T01:25:06.155Z - debug: 5 products seeded
+2018-12-01T01:25:06.155Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:25:06.157Z - debug: 5 orders seeded
+2018-12-01T01:25:06.158Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:25:06.160Z - debug: 5 customers seeded
+2018-12-01T01:25:06.160Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:25:06.162Z - debug: 4 orderLineItem seeded
+2018-12-01T01:25:06.162Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:25:10.224Z - debug: GET /product
