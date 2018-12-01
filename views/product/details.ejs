@@ -1,0 +1,20 @@
+br />
+<h2>Product details</h2>
+<br />
+<br /> _productid:
+<%=  product._productid %>
+<br> productName:
+<%=product.productName%>
+<br /> productDescription:
+<%=product.productDescription%>
+<br /> price:
+<%=product.price%>
+<br /> productCategory:
+<%=product.productCategory%>
+<br /> sellerId:
+<%=product.sellerId%>
+<br />
+<br />
+<form method="get" action="/order">
+    <input type="submit" value="Return to list" class="btn btn-caution" />
+</form>

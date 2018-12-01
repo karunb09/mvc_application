@@ -3787,3 +3787,320 @@ Error: listen EADDRINUSE :::8081
 2018-11-29T22:06:57.109Z - info: Handling GET /delete/:id [object Object]
 2018-11-29T22:06:57.113Z - info: RETURNING VIEW FOR {"orderID":701,"lineNumber":1,"productName":"Biryani","quantity":2}
 2018-11-29T22:07:03.608Z - debug: GET /orderLineItem/findall
+2018-12-01T00:15:38.833Z - info: Environment variables loaded.
+2018-12-01T00:15:38.984Z - debug: START routing
+2018-12-01T00:15:39.038Z - debug: END routing
+2018-12-01T00:15:39.038Z - info: Loaded routing.
+2018-12-01T00:15:39.121Z - info: START seeder.
+2018-12-01T00:15:39.129Z - debug: 5 products seeded
+2018-12-01T00:15:39.130Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:15:39.134Z - debug: 5 orders seeded
+2018-12-01T00:15:39.134Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:15:39.138Z - debug: 5 customers seeded
+2018-12-01T00:15:39.138Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:15:39.142Z - debug: 4 orderLineItem seeded
+2018-12-01T00:15:39.142Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:32:58.672Z - info: Environment variables loaded.
+2018-12-01T00:32:58.746Z - error: uncaughtException: Cannot find module '../models/products.js' date=Fri Nov 30 2018 18:32:58 GMT-0600 (Central Standard Time), pid=62336, uid=null, gid=null, cwd=C:\Users\S533979\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533979\Desktop\onlineorder\app.js], rss=65835008, heapTotal=62730240, heapUsed=35261680, external=19304336, loadavg=[0, 0, 0], uptime=591532
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\onlineorder\controllers\product.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\onlineorder\routes\index.js:23:30)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-12-01T00:32:58.681Z - debug: START routing
+2018-12-01T00:33:19.458Z - info: Environment variables loaded.
+2018-12-01T00:33:19.576Z - error: uncaughtException: Cannot find module '../models/products.js' date=Fri Nov 30 2018 18:33:19 GMT-0600 (Central Standard Time), pid=62296, uid=null, gid=null, cwd=C:\Users\S533979\Desktop\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533979\Desktop\onlineorder\app.js], rss=66535424, heapTotal=62730240, heapUsed=35803976, external=19336886, loadavg=[0, 0, 0], uptime=591553
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\onlineorder\controllers\product.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\onlineorder\routes\index.js:23:30)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-12-01T00:33:19.473Z - debug: START routing
+2018-12-01T00:35:34.021Z - info: Environment variables loaded.
+2018-12-01T00:35:34.029Z - debug: START routing
+2018-12-01T00:35:34.058Z - debug: END routing
+2018-12-01T00:35:34.058Z - info: Loaded routing.
+2018-12-01T00:35:34.095Z - info: START seeder.
+2018-12-01T00:35:34.099Z - debug: 5 products seeded
+2018-12-01T00:35:34.100Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:35:34.102Z - debug: 5 orders seeded
+2018-12-01T00:35:34.102Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:35:34.104Z - debug: 5 customers seeded
+2018-12-01T00:35:34.104Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:35:34.106Z - debug: 4 orderLineItem seeded
+2018-12-01T00:35:34.106Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:35:40.703Z - debug: GET /
+2018-12-01T00:35:41.040Z - debug: GET /favicon.ico
+2018-12-01T00:35:42.742Z - debug: GET /product
+2018-12-01T00:35:45.687Z - debug: GET /product
+2018-12-01T00:35:47.074Z - debug: GET /product
+2018-12-01T00:36:18.587Z - info: Environment variables loaded.
+2018-12-01T00:36:18.595Z - debug: START routing
+2018-12-01T00:36:18.625Z - debug: END routing
+2018-12-01T00:36:18.626Z - info: Loaded routing.
+2018-12-01T00:36:18.662Z - info: START seeder.
+2018-12-01T00:36:18.666Z - debug: 5 products seeded
+2018-12-01T00:36:18.666Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:36:18.670Z - debug: 5 orders seeded
+2018-12-01T00:36:18.671Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:36:18.674Z - debug: 5 customers seeded
+2018-12-01T00:36:18.674Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:36:18.676Z - debug: 4 orderLineItem seeded
+2018-12-01T00:36:18.676Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:36:21.594Z - debug: GET /product
+2018-12-01T00:36:23.412Z - debug: GET /product
+2018-12-01T00:36:24.944Z - debug: GET /product
+2018-12-01T00:36:25.655Z - debug: GET /product
+2018-12-01T00:36:26.191Z - debug: GET /product
+2018-12-01T00:36:26.718Z - debug: GET /product
+2018-12-01T00:36:29.468Z - debug: GET /product
+2018-12-01T00:36:30.982Z - debug: GET /order
+2018-12-01T00:36:32.305Z - debug: GET /customer
+2018-12-01T00:36:33.109Z - debug: GET /orderLineItem
+2018-12-01T00:36:34.147Z - debug: GET /product
+2018-12-01T00:44:06.156Z - info: Environment variables loaded.
+2018-12-01T00:44:06.163Z - debug: START routing
+2018-12-01T00:44:06.194Z - debug: END routing
+2018-12-01T00:44:06.195Z - info: Loaded routing.
+2018-12-01T00:44:06.226Z - info: START seeder.
+2018-12-01T00:44:06.230Z - debug: 5 products seeded
+2018-12-01T00:44:06.230Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:44:06.234Z - debug: 5 orders seeded
+2018-12-01T00:44:06.235Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:44:06.236Z - debug: 5 customers seeded
+2018-12-01T00:44:06.236Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:44:06.238Z - debug: 4 orderLineItem seeded
+2018-12-01T00:44:06.238Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:44:11.782Z - debug: GET /
+2018-12-01T00:44:13.284Z - debug: GET /product
+2018-12-01T00:49:00.287Z - info: Environment variables loaded.
+2018-12-01T00:49:00.296Z - debug: START routing
+2018-12-01T00:49:00.326Z - debug: END routing
+2018-12-01T00:49:00.326Z - info: Loaded routing.
+2018-12-01T00:49:00.366Z - info: START seeder.
+2018-12-01T00:49:00.370Z - debug: 5 products seeded
+2018-12-01T00:49:00.370Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:49:00.373Z - debug: 5 orders seeded
+2018-12-01T00:49:00.373Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:49:00.375Z - debug: 5 customers seeded
+2018-12-01T00:49:00.375Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:49:00.378Z - debug: 4 orderLineItem seeded
+2018-12-01T00:49:00.378Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:49:05.128Z - debug: GET /product
+2018-12-01T00:49:06.450Z - debug: GET /product
+2018-12-01T00:49:07.364Z - debug: GET /product
+2018-12-01T00:49:10.506Z - debug: GET /product
+2018-12-01T00:49:12.300Z - debug: GET /product
+2018-12-01T00:51:03.300Z - info: Environment variables loaded.
+2018-12-01T00:51:03.311Z - debug: START routing
+2018-12-01T00:51:03.344Z - debug: END routing
+2018-12-01T00:51:03.344Z - info: Loaded routing.
+2018-12-01T00:51:03.385Z - info: START seeder.
+2018-12-01T00:51:03.390Z - debug: 5 products seeded
+2018-12-01T00:51:03.390Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:51:03.393Z - debug: 5 orders seeded
+2018-12-01T00:51:03.393Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:51:03.395Z - debug: 5 customers seeded
+2018-12-01T00:51:03.396Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:51:03.398Z - debug: 4 orderLineItem seeded
+2018-12-01T00:51:03.398Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:51:07.336Z - debug: GET /product
+2018-12-01T00:53:23.651Z - info: Environment variables loaded.
+2018-12-01T00:53:23.665Z - debug: START routing
+2018-12-01T00:53:23.724Z - debug: END routing
+2018-12-01T00:53:23.724Z - info: Loaded routing.
+2018-12-01T00:53:23.797Z - info: START seeder.
+2018-12-01T00:53:23.805Z - debug: 5 products seeded
+2018-12-01T00:53:23.806Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:53:23.811Z - debug: 5 orders seeded
+2018-12-01T00:53:23.812Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:53:23.816Z - debug: 5 customers seeded
+2018-12-01T00:53:23.816Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:53:23.820Z - debug: 4 orderLineItem seeded
+2018-12-01T00:53:23.821Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:53:30.989Z - debug: GET /
+2018-12-01T00:53:33.379Z - debug: GET /product
+2018-12-01T00:58:15.080Z - info: Environment variables loaded.
+2018-12-01T00:58:15.093Z - debug: START routing
+2018-12-01T00:58:15.152Z - debug: END routing
+2018-12-01T00:58:15.152Z - info: Loaded routing.
+2018-12-01T00:58:15.224Z - info: START seeder.
+2018-12-01T00:58:15.231Z - debug: 5 products seeded
+2018-12-01T00:58:15.231Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:58:15.235Z - debug: 5 orders seeded
+2018-12-01T00:58:15.236Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:58:15.239Z - debug: 5 customers seeded
+2018-12-01T00:58:15.240Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:58:15.243Z - debug: 4 orderLineItem seeded
+2018-12-01T00:58:15.244Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:58:20.999Z - debug: GET /
+2018-12-01T00:58:24.309Z - debug: GET /product
+2018-12-01T00:59:00.904Z - info: Environment variables loaded.
+2018-12-01T00:59:00.912Z - debug: START routing
+2018-12-01T00:59:00.942Z - debug: END routing
+2018-12-01T00:59:00.942Z - info: Loaded routing.
+2018-12-01T00:59:00.987Z - info: START seeder.
+2018-12-01T00:59:00.992Z - debug: 5 products seeded
+2018-12-01T00:59:00.993Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:59:00.997Z - debug: 5 orders seeded
+2018-12-01T00:59:00.997Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:59:01.000Z - debug: 5 customers seeded
+2018-12-01T00:59:01.000Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:59:01.003Z - debug: 4 orderLineItem seeded
+2018-12-01T00:59:01.004Z - info: END Seeder. Sample data read and verified.
+2018-12-01T00:59:04.104Z - debug: GET /product
+2018-12-01T00:59:06.938Z - debug: GET /product
+2018-12-01T01:00:24.804Z - info: Environment variables loaded.
+2018-12-01T01:00:24.818Z - debug: START routing
+2018-12-01T01:00:24.877Z - debug: END routing
+2018-12-01T01:00:24.878Z - info: Loaded routing.
+2018-12-01T01:00:24.945Z - info: START seeder.
+2018-12-01T01:00:24.953Z - debug: 5 products seeded
+2018-12-01T01:00:24.953Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:00:24.957Z - debug: 5 orders seeded
+2018-12-01T01:00:24.957Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:00:24.961Z - debug: 5 customers seeded
+2018-12-01T01:00:24.961Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:00:24.965Z - debug: 4 orderLineItem seeded
+2018-12-01T01:00:24.966Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:00:31.063Z - debug: GET /
+2018-12-01T01:00:31.801Z - debug: GET /product
+2018-12-01T01:01:19.802Z - info: Environment variables loaded.
+2018-12-01T01:01:19.810Z - debug: START routing
+2018-12-01T01:01:19.839Z - debug: END routing
+2018-12-01T01:01:19.839Z - info: Loaded routing.
+2018-12-01T01:01:19.880Z - info: START seeder.
+2018-12-01T01:01:19.883Z - debug: 5 products seeded
+2018-12-01T01:01:19.884Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:01:19.887Z - debug: 5 orders seeded
+2018-12-01T01:01:19.887Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:01:19.889Z - debug: 5 customers seeded
+2018-12-01T01:01:19.889Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:01:19.891Z - debug: 4 orderLineItem seeded
+2018-12-01T01:01:19.892Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:01:23.517Z - debug: GET /product
+2018-12-01T01:01:25.113Z - debug: GET /product
+2018-12-01T01:01:26.328Z - debug: GET /product/edit/5
+2018-12-01T01:01:26.337Z - info: Handling GET /edit/:id [object Object]
+2018-12-01T01:01:26.341Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:01:30.186Z - debug: GET /product/details/5
+2018-12-01T01:01:30.190Z - info: Handling GET /details/:id [object Object]
+2018-12-01T01:01:30.193Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:01:33.741Z - debug: GET /product/delete/5
+2018-12-01T01:01:33.744Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:01:33.748Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:01:37.094Z - debug: GET /product/details/5
+2018-12-01T01:01:37.097Z - info: Handling GET /details/:id [object Object]
+2018-12-01T01:01:37.103Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:01:39.352Z - debug: GET /order?
+2018-12-01T01:01:42.912Z - debug: GET /product
+2018-12-01T01:01:44.703Z - debug: GET /product/delete/5
+2018-12-01T01:01:44.706Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:01:44.715Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:01:46.022Z - debug: POST /product/delete/5
+2018-12-01T01:01:46.026Z - info: Handling DELETE request [object Object]
+2018-12-01T01:01:46.028Z - info: Handling REMOVING ID=5
+2018-12-01T01:01:46.068Z - debug: GET /product
+2018-12-01T01:01:48.034Z - debug: GET /product/details/1
+2018-12-01T01:01:48.041Z - info: Handling GET /details/:id [object Object]
+2018-12-01T01:01:48.044Z - info: RETURNING VIEW FOR {"_productid":1,"productName":"Chicken-Biryani","productDescription":"Chicken-Biryani is Hyderabad`s Favourite Dish","price":600,"productCategory":"Indian-Cuisine","sellerId":1}
+2018-12-01T01:05:04.089Z - info: Environment variables loaded.
+2018-12-01T01:05:04.097Z - debug: START routing
+2018-12-01T01:05:04.126Z - debug: END routing
+2018-12-01T01:05:04.126Z - info: Loaded routing.
+2018-12-01T01:05:04.162Z - info: START seeder.
+2018-12-01T01:05:04.166Z - debug: 5 products seeded
+2018-12-01T01:05:04.166Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:05:04.170Z - debug: 5 orders seeded
+2018-12-01T01:05:04.170Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:05:04.173Z - debug: 5 customers seeded
+2018-12-01T01:05:04.173Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:05:04.175Z - debug: 4 orderLineItem seeded
+2018-12-01T01:05:04.175Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:05:06.802Z - debug: GET /product
+2018-12-01T01:05:08.950Z - debug: GET /product/delete/5
+2018-12-01T01:05:08.955Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:05:08.956Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:05:11.713Z - debug: GET /product/delete/4
+2018-12-01T01:05:11.717Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:05:11.721Z - info: RETURNING VIEW FOR {"_productid":4,"productName":"Chips","productDescription":"Grated Potato fried, and garnished with salt and peper","price":10,"productCategory":"Snacks","sellerId":4}
+2018-12-01T01:05:14.353Z - debug: GET /product/delete/3
+2018-12-01T01:05:14.356Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:05:14.357Z - info: RETURNING VIEW FOR {"_productid":3,"productName":"Burger","productDescription":"A patty is places between two breadpieces.","price":50,"productCategory":"Fast-Food","sellerId":3}
+2018-12-01T01:05:17.428Z - debug: GET /product/delete/2
+2018-12-01T01:05:17.431Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:05:17.436Z - info: RETURNING VIEW FOR {"_productid":2,"productName":"Pasta","productDescription":"Pasta is one of the most tastiest food in Italian Cuisine","price":300,"productCategory":"Italian-Cuisine","sellerId":2}
+2018-12-01T01:05:20.234Z - debug: GET /product/delete/1
+2018-12-01T01:05:20.236Z - info: Handling GET /delete/:id [object Object]
+2018-12-01T01:05:20.237Z - info: RETURNING VIEW FOR {"_productid":1,"productName":"Chicken-Biryani","productDescription":"Chicken-Biryani is Hyderabad`s Favourite Dish","price":600,"productCategory":"Indian-Cuisine","sellerId":1}
+2018-12-01T01:05:22.595Z - debug: GET /product?
+2018-12-01T01:05:24.275Z - debug: GET /product/edit/5
+2018-12-01T01:05:24.282Z - info: Handling GET /edit/:id [object Object]
+2018-12-01T01:05:24.283Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:14:20.467Z - info: Environment variables loaded.
+2018-12-01T01:14:20.483Z - debug: START routing
+2018-12-01T01:14:20.544Z - debug: END routing
+2018-12-01T01:14:20.544Z - info: Loaded routing.
+2018-12-01T01:14:20.617Z - info: START seeder.
+2018-12-01T01:14:20.625Z - debug: 5 products seeded
+2018-12-01T01:14:20.625Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:14:20.630Z - debug: 5 orders seeded
+2018-12-01T01:14:20.630Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:14:20.634Z - debug: 5 customers seeded
+2018-12-01T01:14:20.634Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:14:20.638Z - debug: 4 orderLineItem seeded
+2018-12-01T01:14:20.639Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:14:25.084Z - debug: GET /
+2018-12-01T01:14:27.957Z - debug: GET /product
+2018-12-01T01:14:33.241Z - debug: GET /product/create
+2018-12-01T01:14:33.245Z - info: Handling GET /create[object Object]
+2018-12-01T01:14:33.256Z - debug: {"productName":"Chicken-Biryani","productDescription":"Biryani","price":600,"productCategory":"Indian-Cuisine","_id":"5c01e0799de393012516ef19"}
+2018-12-01T01:14:37.188Z - debug: GET /product/edit/5
+2018-12-01T01:14:37.193Z - info: Handling GET /edit/:id [object Object]
+2018-12-01T01:14:37.202Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:14:45.460Z - debug: POST /product/save/5
+2018-12-01T01:14:45.462Z - info: Handling SAVE request [object Object]
+2018-12-01T01:14:45.462Z - info: Handling SAVING ID=5
+2018-12-01T01:14:45.463Z - info: ORIGINAL VALUES {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-01T01:14:45.463Z - info: UPDATED VALUES: {"_productid":"5","productName":"12222-12-12","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":"150","productCategory":"Chinese-Foo","sellerId":"5"}
+2018-12-01T01:14:45.463Z - info: SAVING UPDATED product {"_productid":5,"productName":"12222-12-12","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Foo","sellerId":"5"}
+2018-12-01T01:14:45.485Z - debug: GET /product
+2018-12-01T01:14:47.223Z - debug: GET /product/details/5
+2018-12-01T01:14:47.231Z - info: Handling GET /details/:id [object Object]
+2018-12-01T01:14:47.234Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"12222-12-12","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Foo","sellerId":"5"}

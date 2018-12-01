@@ -1,0 +1,46 @@
+<br />
+<br />
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12 col-lg-10">
+      <a href="product/create" class="btn btn-primary new">
+        Create a new products
+      </a>
+      <h2>Recent products entries</h2>
+      <p>There are
+        <%= products.query.length %> products.
+        <br />
+        <br /> _productid:
+<%=  products._productid %>
+<br> productName:
+<%=products.productName%>
+<br /> productDescription:
+<%=products.productDescription%>
+<br /> price:
+<%=products.price%>
+<br /> productCategory:
+<%=products.productCategory%>
+<br /> sellerId:
+<%=products.sellerId%>
+<br />
+<br />
+      </p>
+      <% for (var i = products.query.length-1; i >= 0; i--) {   
+        product = products.query[i];   %>
+      <div class="panel panel-default">
+        <div class="panel-heading"></div>
+        <div class="text-muted pull-right"></div>
+        <div class="panel-body">
+        
+          <br />
+
+          <a href="/product/delete/<%=product._productid%>" class="btn btn-danger"> Delete </a>
+          <a href="/product/details/<%=product._productid %>" class="btn btn-info"> Details </a>
+          <a href="/product/edit/<%=product._productid %>" class="btn btn-warning"> Edit </a>
+        </div>
+      </div>
+      <%  } %>
+
+    </div>
+  </div>
+</div>

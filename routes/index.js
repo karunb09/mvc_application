@@ -18,8 +18,13 @@ router.get('/', (req, res, next) => {
   res.render('index.ejs', { title: 'Express App' })
 })
 router.use('/order', require('../controllers/order.js'))
+router.get('/product', function (req, res){
+  res.render("product/index.ejs");
+})
 
 router.use('/orderLineItem', require('../controllers/orderLineItem.js'))
+router.use('/product', require('../controllers/product.js'))
+
 
 
 LOG.debug('END routing')
