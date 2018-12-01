@@ -4684,3 +4684,69 @@ Error: Cannot find module '../models/products.js'
 2018-11-29T23:35:36.860Z - debug: GET /order
 >>>>>>> 52054862676b857ce27ec5502c093ba304f6b59f
 >>>>>>> 8aed3409082d22aca7aa449da4ab783247119332
+2018-12-01T01:33:13.390Z - info: Environment variables loaded.
+2018-12-01T01:33:13.462Z - error: uncaughtException: Unexpected token << date=Fri Nov 30 2018 19:33:13 GMT-0600 (Central Standard Time), pid=66820, uid=null, gid=null, cwd=C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\app.js], rss=68583424, heapTotal=61681664, heapUsed=37750176, external=19713553, loadavg=[0, 0, 0], uptime=595146
+C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\routes\index.js:26
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+2018-12-01T01:33:56.978Z - info: Environment variables loaded.
+2018-12-01T01:33:57.020Z - error: uncaughtException: Unexpected token << date=Fri Nov 30 2018 19:33:56 GMT-0600 (Central Standard Time), pid=71736, uid=null, gid=null, cwd=C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\app.js], rss=68636672, heapTotal=61681664, heapUsed=37651592, external=19691443, loadavg=[0, 0, 0], uptime=595190
+C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\routes\index.js:26
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\app.js:101:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+2018-12-01T01:34:40.861Z - info: Environment variables loaded.
+2018-12-01T01:34:40.871Z - debug: START routing
+2018-12-01T01:34:40.909Z - debug: END routing
+2018-12-01T01:34:40.910Z - info: Loaded routing.
+2018-12-01T01:34:40.947Z - info: START seeder.
+2018-12-01T01:34:40.951Z - debug: 5 products seeded
+2018-12-01T01:34:40.951Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:34:40.953Z - debug: 5 orders seeded
+2018-12-01T01:34:40.953Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:34:40.960Z - debug: 5 customers seeded
+2018-12-01T01:34:40.960Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:34:40.964Z - debug: 4 orderLineItem seeded
+2018-12-01T01:34:40.964Z - info: END Seeder. Sample data read and verified.
+2018-12-01T01:34:44.982Z - debug: GET /
