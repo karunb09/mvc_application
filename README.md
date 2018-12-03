@@ -9,11 +9,11 @@ Page 4:  Product
 ##Team:
 ##Group Members:
 
--Sonam Gadekari—Order, OrderLineItem
+-Sonam Gadekari—Order.
 
--Karun Bourishetty—OrderLineItem
+-Karun Bourishetty—OrderLineItem.
 
--Hyndavi Musipatla-Customer
+-Hyndavi Musipatla-Customer.
 
 -Jeevan Sai Subhash Veeramachaneni-Product.
 
