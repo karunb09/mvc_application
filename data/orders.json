@@ -10,7 +10,7 @@
     },
     {
       "_orderid": 101,
-      "ordername": "Mutton Biriyani",
+      "ordername": "Chicken-Biryani",
       "orderdate": "1/1/2018",
       "shippingAdress": "H.No:78-110,Krishna Nagar",
       "deliveryDetails": "Jubiliant foods",
@@ -19,7 +19,7 @@
     },
 	  {
       "_orderid": 102,
-      "ordername": "Fish Fry",
+      "ordername": "Pasta",
       "orderdate": "1/1/2018",
       "shippingAdress": "H.No:78-110,Krishna Nagar",
       "deliveryDetails": "Jubiliant foods",
@@ -28,7 +28,7 @@
     },
     {
       "_orderid": 103,
-      "ordername": "Chicken Fry",
+      "ordername": "Burger",
       "orderdate": "1/1/2018",
       "shippingAdress": "H.No:78-110,Krishna Nagar",
       "deliveryDetails": "Jubiliant foods",
@@ -37,9 +37,9 @@
     },
     {
       "_orderid": 104,
-      "ordername": "Chicken Fry2",
+      "ordername": "Burger",
       "orderdate": "1/1/2018",
-      "shippingAdress": "H.No:78-110,Krishna Nagar",
+      "shippingAdress": "H.No:78-110,Maryville",
       "deliveryDetails": "Jubiliant foods",
       "_productID":"3",
 	  "cashOnDelivery": 600.00

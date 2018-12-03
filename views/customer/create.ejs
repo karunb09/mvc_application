@@ -7,15 +7,15 @@
         <h2>Create a new customer </h2>
         <br/>
         <% maxID=0; for (var i=0; i < customers.query.length; i++) {
-        if(customers.query[i]._id > maxID) { maxID=customers.query[i]._id;   }
-        var age = customers.query[i].age;}%>
+        if(customers.query[i]._customerid > maxID) { maxID=customers.query[i]._customerid;   }
+        }%>
           <div class="content">
             <div>
               <form name="customer" method="POST" action="/customer/save">
   
                 <div class="form-group" id=frm>
-                  <label for="_id">ID</label>
-                  <input type="number" class="form-control" id="_id" name="_id" value="<%= maxID+1 %>" required readonly>
+                  <label for="_customerid">ID</label>
+                  <input type="number" class="form-control" id="_customerid" name="_customerid" value="<%= maxID+1 %>" required readonly>
                 </div>
   
                 <!-- COMMON TO EDIT AND CREATE -->

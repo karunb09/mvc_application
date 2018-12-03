@@ -1,3 +1,27 @@
+## Title-- Onlineorders
+## Overview-- This app have orders,Customers,OnlineLinItems and Products.
+## WebPage Description
+Page 1:  Customer 
+Page 2:  Online 
+Page 3:  OrderOnlineItem
+Page 4:  Product
+
+##Team:
+##Group Members:
+
+-Sonam Gadekari—Order, OrderLineItem
+
+-Karun Bourishetty—OrderLineItem
+
+-Hyndavi Musipatla-Customer
+
+-Jeevan Sai Subhash Veeramachaneni-Product.
+
+## Links
+
+- Repo <https://bitbucket.org/S533490/onlineorder/src>
+
+
 # Node Express MVC EJS Bootstrap Starter app
 
 A sample starter app using:
@@ -13,32 +37,8 @@ A sample starter app using:
 - nedb In-memory database
 - Winston logger
 
-## Links
-
-- Repo <https://bitbucket.org/S533490/onlineorder/src>
 
 ## Prerequisites
-
-## WebPage Description
-
-Page 1:  Customer 
-Page 2:  Online 
-Page 3:  OrderOnlineItem
-Page 4:  Product
-
-##Group Members:
-
--Sonam Gadekari—Order, OrderLineItem
-
--Karun Bourishetty—OrderLineItem
-
--Hyndavi Musipatla-Customer
-
--Jeevan Sai Subhash Veeramachaneni-Product.
-
-
-
-
 
 ## Install Nodemon Globally
 

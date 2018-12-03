@@ -1,4 +1,7 @@
-
+/**
+ * Controller for the Customer Page
+ * @author Hyndavi Musipatla
+ */
 const express = require('express')
 const api = express.Router()
 const Model = require('../models/customer.js')
@@ -30,7 +33,7 @@ api.get('/findone/:id', (req, res) => {
 
 // GET to this controller base URI (the default)
 api.get('/', (req, res) => {
-  res.render('customers/index.ejs')
+  res.render('customer/index.ejs')
 })
 
 // GET create
@@ -38,7 +41,7 @@ api.get('/create', (req, res) => {
   LOG.info(`Handling GET /create${req}`)
   const item = new Model()
   LOG.debug(JSON.stringify(item))
-  res.render('customers/create',
+  res.render('customer/create',
     {
       title: 'Create customer',
       layout: 'layout.ejs',
@@ -54,7 +57,7 @@ api.get('/delete/:id', (req, res) => {
   const item = find(data, { _customerid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-  return res.render('customers/delete.ejs',
+  return res.render('customer/delete.ejs',
     {
       title: 'Delete customer',
       layout: 'layout.ejs',
@@ -70,7 +73,7 @@ api.get('/details/:id', (req, res) => {
   const item = find(data, { _customerid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-  return res.render('customers/details.ejs',
+  return res.render('customer/details.ejs',
     {
       title: 'customer Details',
       layout: 'layout.ejs',
@@ -86,7 +89,7 @@ api.get('/edit/:id', (req, res) => {
   const item = find(data, { _customerid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-  return res.render('customers/edit.ejs',
+  return res.render('customer/edit.ejs',
     {
       title: 'customer',
       layout: 'layout.ejs',
@@ -112,7 +115,7 @@ api.post('/save', (req, res) => {
   
   data.push(item)
   LOG.info(`SAVING NEW customer ${JSON.stringify(item)}`)
-  return res.redirect('/customers')
+  return res.redirect('/customer')
 })
 
 // POST update
@@ -131,7 +134,7 @@ api.post('/save/:id', (req, res) => {
   item.customerPhoneNumber = req.body.customerPhoneNumber
   item.customerEmail = req.body.customerEmail
   LOG.info(`SAVING UPDATED customer ${JSON.stringify(item)}`)
-  return res.redirect('/customers')
+  return res.redirect('/customer')
 })
 
 // DELETE id (uses HTML5 form method POST)
@@ -148,10 +151,10 @@ api.post('/delete/:id', (req, res) => {
     item.isActive = false
     console.log(`Deacctivated item ${JSON.stringify(item)}`)
   } else {
-    const item = remove(data, { _id: id })
+    const item = remove(data, { _customerid: id })
     console.log(`Permanently deleted item ${JSON.stringify(item)}`)
   }
-  return res.redirect('http://localhost:8081/customers')
+  return res.redirect('http://localhost:8081/customer')
 })
 
 module.exports = api

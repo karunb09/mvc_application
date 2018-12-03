@@ -4838,3 +4838,371 @@ Error: listen EADDRINUSE :::8081
 2018-12-03T01:53:42.509Z - debug: GET /product/edit/5
 2018-12-03T01:53:42.510Z - info: Handling GET /edit/:id [object Object]
 2018-12-03T01:53:42.512Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-03T21:06:43.304Z - info: Environment variables loaded.
+2018-12-03T21:06:43.323Z - debug: START routing
+2018-12-03T21:06:43.422Z - debug: END routing
+2018-12-03T21:06:43.422Z - info: Loaded routing.
+2018-12-03T21:06:43.488Z - info: START seeder.
+2018-12-03T21:06:43.500Z - debug: 5 products seeded
+2018-12-03T21:06:43.500Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:06:43.506Z - debug: 5 orders seeded
+2018-12-03T21:06:43.506Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:06:43.511Z - debug: 5 customers seeded
+2018-12-03T21:06:43.512Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:06:43.519Z - debug: 4 orderLineItem seeded
+2018-12-03T21:06:43.519Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:06:48.839Z - debug: GET /
+2018-12-03T21:06:50.986Z - debug: GET /customer
+2018-12-03T21:06:52.868Z - debug: GET /customer/delete/104
+2018-12-03T21:06:52.870Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T21:06:52.871Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T21:06:54.448Z - debug: POST /customer/delete/
+2018-12-03T21:06:59.790Z - debug: POST /customer/delete/
+2018-12-03T21:07:03.334Z - debug: GET /customer/edit/104
+2018-12-03T21:07:03.334Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T21:07:03.335Z - info: RETURNING VIEW FOR{"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T21:07:11.511Z - debug: POST /customer/save/104
+2018-12-03T21:07:11.513Z - info: Handling SAVE request [object Object]
+2018-12-03T21:07:11.514Z - info: Handling SAVING ID=104
+2018-12-03T21:07:11.514Z - info: ORIGINAL VALUES {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T21:07:11.515Z - info: UPDATED VALUES: {"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T21:07:11.516Z - info: SAVING UPDATED customer {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T21:07:11.555Z - debug: GET /customers
+2018-12-03T21:07:16.704Z - debug: GET /customer/details/104
+2018-12-03T21:07:16.705Z - info: Handling GET /details/:id [object Object]
+2018-12-03T21:07:16.705Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T21:07:17.901Z - debug: GET /customer?
+2018-12-03T21:30:25.817Z - info: Environment variables loaded.
+2018-12-03T21:30:25.835Z - debug: START routing
+2018-12-03T21:30:25.897Z - debug: END routing
+2018-12-03T21:30:25.897Z - info: Loaded routing.
+2018-12-03T21:30:25.937Z - info: START seeder.
+2018-12-03T21:30:25.943Z - debug: 5 products seeded
+2018-12-03T21:30:25.943Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:30:25.947Z - debug: 5 orders seeded
+2018-12-03T21:30:25.947Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:30:25.950Z - debug: 5 customers seeded
+2018-12-03T21:30:25.950Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:30:25.952Z - debug: 4 orderLineItem seeded
+2018-12-03T21:30:25.952Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:30:31.147Z - debug: GET /
+2018-12-03T21:30:33.228Z - debug: GET /customer
+2018-12-03T21:30:34.663Z - debug: GET /customer/delete/104
+2018-12-03T21:30:34.666Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T21:30:34.669Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T21:30:36.095Z - debug: POST /customers/delete/
+2018-12-03T21:30:42.865Z - debug: POST /customers/delete/
+2018-12-03T21:33:34.836Z - info: Environment variables loaded.
+2018-12-03T21:33:34.852Z - debug: START routing
+2018-12-03T21:33:34.932Z - debug: END routing
+2018-12-03T21:33:34.932Z - info: Loaded routing.
+2018-12-03T21:33:35.023Z - info: START seeder.
+2018-12-03T21:33:35.034Z - debug: 5 products seeded
+2018-12-03T21:33:35.034Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:33:35.040Z - debug: 5 orders seeded
+2018-12-03T21:33:35.040Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:33:35.044Z - debug: 5 customers seeded
+2018-12-03T21:33:35.044Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:33:35.051Z - debug: 4 orderLineItem seeded
+2018-12-03T21:33:35.052Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:33:40.326Z - debug: GET /
+2018-12-03T21:33:41.817Z - debug: GET /customer
+2018-12-03T21:33:43.439Z - debug: GET /customers/delete/104
+2018-12-03T21:33:46.731Z - debug: GET /customers/delete/104
+2018-12-03T21:34:27.934Z - debug: GET /customers/edit/104
+2018-12-03T21:34:31.011Z - debug: GET /customers/details/104
+2018-12-03T21:45:08.642Z - info: Environment variables loaded.
+2018-12-03T21:45:08.656Z - debug: START routing
+2018-12-03T21:45:08.695Z - debug: END routing
+2018-12-03T21:45:08.695Z - info: Loaded routing.
+2018-12-03T21:45:08.739Z - info: START seeder.
+2018-12-03T21:45:08.749Z - debug: 5 products seeded
+2018-12-03T21:45:08.749Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:45:08.754Z - debug: 5 orders seeded
+2018-12-03T21:45:08.754Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:45:08.757Z - debug: 5 customers seeded
+2018-12-03T21:45:08.757Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:45:08.760Z - debug: 4 orderLineItem seeded
+2018-12-03T21:45:08.760Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:45:15.314Z - debug: GET /
+2018-12-03T21:45:17.151Z - debug: GET /customer
+2018-12-03T21:47:08.099Z - info: Environment variables loaded.
+2018-12-03T21:47:08.113Z - debug: START routing
+2018-12-03T21:47:08.151Z - debug: END routing
+2018-12-03T21:47:08.151Z - info: Loaded routing.
+2018-12-03T21:47:08.187Z - info: START seeder.
+2018-12-03T21:47:08.190Z - debug: 5 products seeded
+2018-12-03T21:47:08.191Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:47:08.193Z - debug: 5 orders seeded
+2018-12-03T21:47:08.193Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:47:08.195Z - debug: 5 customers seeded
+2018-12-03T21:47:08.195Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:47:08.197Z - debug: 4 orderLineItem seeded
+2018-12-03T21:47:08.197Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:47:12.645Z - debug: GET /customer
+2018-12-03T21:47:14.989Z - debug: GET /customer/edit/104
+2018-12-03T21:47:14.992Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T21:47:33.056Z - debug: GET /customer/delete/104
+2018-12-03T21:47:33.057Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T21:47:38.244Z - debug: GET /customer/details/104
+2018-12-03T21:47:38.246Z - info: Handling GET /details/:id [object Object]
+2018-12-03T21:49:41.637Z - info: Environment variables loaded.
+2018-12-03T21:49:41.677Z - debug: START routing
+2018-12-03T21:49:41.836Z - debug: END routing
+2018-12-03T21:49:41.837Z - info: Loaded routing.
+2018-12-03T21:49:41.972Z - info: START seeder.
+2018-12-03T21:49:41.987Z - debug: 5 products seeded
+2018-12-03T21:49:41.989Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:49:42.012Z - debug: 5 orders seeded
+2018-12-03T21:49:42.013Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:49:42.031Z - debug: 5 customers seeded
+2018-12-03T21:49:42.031Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:49:42.044Z - debug: 4 orderLineItem seeded
+2018-12-03T21:49:42.044Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:49:43.326Z - debug: GET /
+2018-12-03T21:49:47.422Z - debug: GET /
+2018-12-03T21:49:49.426Z - debug: GET /customer
+2018-12-03T21:49:51.257Z - debug: GET /customer/delete/104
+2018-12-03T21:49:51.259Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T21:50:11.089Z - debug: GET /customer/create
+2018-12-03T21:50:11.090Z - info: Handling GET /create[object Object]
+2018-12-03T21:50:11.110Z - debug: {"customername":"Gary Mehigan","customerAddress":"Flat No:106,Horizons","customerPhoneNumber":6605280901,"customerEmail":"hyndavi@gmail.com","_id":"5c05a513a73e755e0844d194"}
+2018-12-03T21:50:13.936Z - debug: POST /customer/save
+2018-12-03T21:50:13.938Z - info: Handling POST [object Object]
+2018-12-03T21:50:13.938Z - debug: {"_id":"1","customername":"Gary Mehigan","customerAddress":"Flat No:106,Horizons","customerPhoneNumber":"6605280901","customerEmail":"hyndavi@gmail.com"}
+2018-12-03T21:50:18.541Z - debug: POST /customer/save
+2018-12-03T21:50:18.542Z - info: Handling POST [object Object]
+2018-12-03T21:50:18.542Z - debug: {"_id":"1","customername":"Gary Mehigan","customerAddress":"Flat No:106,Horizons","customerPhoneNumber":"6605280901","customerEmail":"hyndavi@gmail.com"}
+2018-12-03T21:51:28.527Z - debug: GET /customer?
+2018-12-03T21:51:30.671Z - debug: GET /customer/details/104
+2018-12-03T21:51:30.673Z - info: Handling GET /details/:id [object Object]
+2018-12-03T21:58:30.832Z - info: Environment variables loaded.
+2018-12-03T21:58:30.841Z - debug: START routing
+2018-12-03T21:58:30.872Z - debug: END routing
+2018-12-03T21:58:30.872Z - info: Loaded routing.
+2018-12-03T21:58:30.909Z - info: START seeder.
+2018-12-03T21:58:30.913Z - debug: 5 products seeded
+2018-12-03T21:58:30.913Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:58:30.916Z - debug: 5 orders seeded
+2018-12-03T21:58:30.916Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:58:30.918Z - debug: 5 customers seeded
+2018-12-03T21:58:30.918Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:58:30.919Z - debug: 4 orderLineItem seeded
+2018-12-03T21:58:30.919Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:58:42.333Z - debug: GET /
+2018-12-03T21:58:44.255Z - debug: GET /customer
+2018-12-03T21:58:45.468Z - debug: GET /customer/delete/104
+2018-12-03T21:58:45.469Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T21:59:53.100Z - info: Environment variables loaded.
+2018-12-03T21:59:53.108Z - debug: START routing
+2018-12-03T21:59:53.143Z - debug: END routing
+2018-12-03T21:59:53.143Z - info: Loaded routing.
+2018-12-03T21:59:53.180Z - info: START seeder.
+2018-12-03T21:59:53.183Z - debug: 5 products seeded
+2018-12-03T21:59:53.183Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:59:53.185Z - debug: 5 orders seeded
+2018-12-03T21:59:53.185Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:59:53.187Z - debug: 5 customers seeded
+2018-12-03T21:59:53.187Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:59:53.189Z - debug: 4 orderLineItem seeded
+2018-12-03T21:59:53.189Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:59:55.193Z - info: Environment variables loaded.
+2018-12-03T21:59:55.201Z - debug: START routing
+2018-12-03T21:59:55.234Z - debug: END routing
+2018-12-03T21:59:55.234Z - info: Loaded routing.
+2018-12-03T21:59:55.269Z - info: START seeder.
+2018-12-03T21:59:55.274Z - debug: 5 products seeded
+2018-12-03T21:59:55.274Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:59:55.277Z - debug: 5 orders seeded
+2018-12-03T21:59:55.277Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:59:55.281Z - debug: 5 customers seeded
+2018-12-03T21:59:55.281Z - info: END Seeder. Sample data read and verified.
+2018-12-03T21:59:55.283Z - debug: 4 orderLineItem seeded
+2018-12-03T21:59:55.283Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:32.366Z - info: Environment variables loaded.
+2018-12-03T22:00:32.382Z - debug: START routing
+2018-12-03T22:00:32.436Z - debug: END routing
+2018-12-03T22:00:32.436Z - info: Loaded routing.
+2018-12-03T22:00:32.478Z - info: START seeder.
+2018-12-03T22:00:32.486Z - debug: 5 products seeded
+2018-12-03T22:00:32.486Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:32.488Z - debug: 5 orders seeded
+2018-12-03T22:00:32.488Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:32.490Z - debug: 5 customers seeded
+2018-12-03T22:00:32.490Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:32.492Z - debug: 4 orderLineItem seeded
+2018-12-03T22:00:32.492Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:41.406Z - info: Environment variables loaded.
+2018-12-03T22:00:41.414Z - debug: START routing
+2018-12-03T22:00:41.450Z - debug: END routing
+2018-12-03T22:00:41.451Z - info: Loaded routing.
+2018-12-03T22:00:41.492Z - info: START seeder.
+2018-12-03T22:00:41.500Z - debug: 5 products seeded
+2018-12-03T22:00:41.500Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:41.506Z - debug: 5 orders seeded
+2018-12-03T22:00:41.506Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:41.509Z - debug: 5 customers seeded
+2018-12-03T22:00:41.509Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:41.511Z - debug: 4 orderLineItem seeded
+2018-12-03T22:00:41.511Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:00:46.533Z - debug: GET /
+2018-12-03T22:00:48.567Z - debug: GET /customer
+2018-12-03T22:00:49.941Z - debug: GET /customer/delete/104
+2018-12-03T22:00:49.943Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T22:00:49.945Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:00:51.489Z - debug: POST /customer/delete/104
+2018-12-03T22:00:51.490Z - info: Handling DELETE request [object Object]
+2018-12-03T22:00:51.490Z - info: Handling REMOVING ID=104
+2018-12-03T22:00:51.500Z - debug: GET /customer
+2018-12-03T22:00:53.323Z - debug: GET /customer/delete/104
+2018-12-03T22:00:53.324Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T22:00:53.324Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:00:54.285Z - debug: POST /customer/delete/104
+2018-12-03T22:00:54.285Z - info: Handling DELETE request [object Object]
+2018-12-03T22:00:54.285Z - info: Handling REMOVING ID=104
+2018-12-03T22:00:54.289Z - debug: GET /customer
+2018-12-03T22:00:55.617Z - debug: GET /customer/edit/104
+2018-12-03T22:00:55.617Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T22:00:55.617Z - info: RETURNING VIEW FOR{"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:00:58.466Z - debug: POST /customer/save/104
+2018-12-03T22:00:58.467Z - info: Handling SAVE request [object Object]
+2018-12-03T22:00:58.467Z - info: Handling SAVING ID=104
+2018-12-03T22:00:58.467Z - info: ORIGINAL VALUES {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:00:58.467Z - info: UPDATED VALUES: {"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:00:58.467Z - info: SAVING UPDATED customer {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:00:58.472Z - debug: GET /customer
+2018-12-03T22:01:00.282Z - debug: GET /customer/edit/104
+2018-12-03T22:01:00.283Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T22:01:00.283Z - info: RETURNING VIEW FOR{"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:08.129Z - debug: POST /customer/save/104
+2018-12-03T22:01:08.129Z - info: Handling SAVE request [object Object]
+2018-12-03T22:01:08.129Z - info: Handling SAVING ID=104
+2018-12-03T22:01:08.130Z - info: ORIGINAL VALUES {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:08.130Z - info: UPDATED VALUES: {"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:08.130Z - info: SAVING UPDATED customer {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:08.136Z - debug: GET /customer
+2018-12-03T22:01:12.603Z - debug: GET /customer/edit/104
+2018-12-03T22:01:12.603Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T22:01:12.603Z - info: RETURNING VIEW FOR{"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:22.928Z - debug: POST /customer/save/104
+2018-12-03T22:01:22.928Z - info: Handling SAVE request [object Object]
+2018-12-03T22:01:22.929Z - info: Handling SAVING ID=104
+2018-12-03T22:01:22.929Z - info: ORIGINAL VALUES {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:22.929Z - info: UPDATED VALUES: {"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana,India","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:22.929Z - info: SAVING UPDATED customer {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana,India","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:22.936Z - debug: GET /customer
+2018-12-03T22:01:26.250Z - debug: GET /customer/delete/104
+2018-12-03T22:01:26.250Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T22:01:26.250Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana,India","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:38.875Z - debug: GET /customer?
+2018-12-03T22:01:40.506Z - debug: GET /customer/edit/104
+2018-12-03T22:01:40.506Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T22:01:40.506Z - info: RETURNING VIEW FOR{"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana,India","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:52.176Z - debug: GET /customer/details/104
+2018-12-03T22:01:52.177Z - info: Handling GET /details/:id [object Object]
+2018-12-03T22:01:52.178Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana,India","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:53.240Z - debug: GET /customer?
+2018-12-03T22:01:54.409Z - debug: GET /customer/delete/104
+2018-12-03T22:01:54.409Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T22:01:54.409Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana,India","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:01:56.907Z - debug: POST /customer/delete/104
+2018-12-03T22:01:56.908Z - info: Handling DELETE request [object Object]
+2018-12-03T22:01:56.908Z - info: Handling REMOVING ID=104
+2018-12-03T22:01:56.919Z - debug: GET /customer
+2018-12-03T22:01:58.892Z - debug: GET /customer/delete/104
+2018-12-03T22:01:58.893Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T22:01:58.893Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi Gupta","customerAddress":"Nizamabad,Telangana,India","customerPhoneNumber":"6605282134","customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:02:01.050Z - debug: POST /customer/delete/104
+2018-12-03T22:02:01.051Z - info: Handling DELETE request [object Object]
+2018-12-03T22:02:01.051Z - info: Handling REMOVING ID=104
+2018-12-03T22:02:01.055Z - debug: GET /customer
+2018-12-03T22:02:18.291Z - debug: GET /customer/delete/100
+2018-12-03T22:02:18.291Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T22:02:18.292Z - info: RETURNING VIEW FOR {"_customerid":100,"customername":"Hyndavi","customerAddress":"Hyderabad,India","customerPhoneNumber":6605281232,"customerEmail":"hyndavi@gmail.com"}
+2018-12-03T22:02:19.478Z - debug: POST /customer/delete/100
+2018-12-03T22:02:19.479Z - info: Handling DELETE request [object Object]
+2018-12-03T22:02:19.479Z - info: Handling REMOVING ID=100
+2018-12-03T22:02:19.487Z - debug: GET /customer
+2018-12-03T22:07:31.065Z - info: Environment variables loaded.
+2018-12-03T22:07:31.073Z - debug: START routing
+2018-12-03T22:07:31.109Z - debug: END routing
+2018-12-03T22:07:31.109Z - info: Loaded routing.
+2018-12-03T22:07:31.142Z - info: START seeder.
+2018-12-03T22:07:31.147Z - debug: 5 products seeded
+2018-12-03T22:07:31.147Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:31.151Z - debug: 5 orders seeded
+2018-12-03T22:07:31.151Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:31.153Z - debug: 5 customers seeded
+2018-12-03T22:07:31.153Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:31.155Z - debug: 4 orderLineItem seeded
+2018-12-03T22:07:31.155Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:55.120Z - info: Environment variables loaded.
+2018-12-03T22:07:55.127Z - debug: START routing
+2018-12-03T22:07:55.156Z - debug: END routing
+2018-12-03T22:07:55.156Z - info: Loaded routing.
+2018-12-03T22:07:55.188Z - info: START seeder.
+2018-12-03T22:07:55.191Z - debug: 5 products seeded
+2018-12-03T22:07:55.192Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:55.194Z - debug: 5 orders seeded
+2018-12-03T22:07:55.194Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:55.196Z - debug: 5 customers seeded
+2018-12-03T22:07:55.196Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:55.198Z - debug: 4 orderLineItem seeded
+2018-12-03T22:07:55.198Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:07:59.926Z - debug: GET /
+2018-12-03T22:08:01.591Z - debug: GET /customer
+2018-12-03T22:08:03.073Z - debug: GET /customer/delete/104
+2018-12-03T22:08:03.073Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T22:08:03.074Z - info: RETURNING VIEW FOR {"_customerid":104,"customername":"Pranathi","customerAddress":"Nizamabad,Telangana","customerPhoneNumber":6605282134,"customerEmail":"pranathi@gmail.com"}
+2018-12-03T22:08:04.383Z - debug: POST /customer/delete/104
+2018-12-03T22:08:04.384Z - info: Handling DELETE request [object Object]
+2018-12-03T22:08:04.384Z - info: Handling REMOVING ID=104
+2018-12-03T22:08:04.392Z - debug: GET /customer
+2018-12-03T22:21:27.571Z - info: Environment variables loaded.
+2018-12-03T22:21:27.584Z - debug: START routing
+2018-12-03T22:21:27.621Z - debug: END routing
+2018-12-03T22:21:27.621Z - info: Loaded routing.
+2018-12-03T22:21:27.654Z - info: START seeder.
+2018-12-03T22:21:27.660Z - debug: 5 products seeded
+2018-12-03T22:21:27.660Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:21:27.662Z - debug: 5 orders seeded
+2018-12-03T22:21:27.662Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:21:27.664Z - debug: 5 customers seeded
+2018-12-03T22:21:27.664Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:21:27.668Z - debug: 4 orderLineItem seeded
+2018-12-03T22:21:27.668Z - info: END Seeder. Sample data read and verified.
+2018-12-03T22:21:32.527Z - debug: GET /
+2018-12-03T22:21:34.683Z - debug: GET /customer
+2018-12-03T22:21:35.957Z - debug: GET /customer/create
+2018-12-03T22:21:35.959Z - info: Handling GET /create[object Object]
+2018-12-03T22:21:35.969Z - debug: {"customername":"Gary Mehigan","customerAddress":"Flat No:106,Horizons","customerPhoneNumber":6605280901,"customerEmail":"hyndavi@gmail.com","_id":"5c05ac6f9e64c2fb3572e0be"}
+2018-12-03T22:21:40.238Z - debug: POST /customer/save
+2018-12-03T22:21:40.239Z - info: Handling POST [object Object]
+2018-12-03T22:21:40.239Z - debug: {"_customerid":"105","customername":"Gary Mehigan","customerAddress":"Flat No:106,Horizons","customerPhoneNumber":"6605280901","customerEmail":"hyndavi@gmail.com"}
+2018-12-03T22:21:40.241Z - info: NEW ID 105
+2018-12-03T22:21:40.245Z - info: SAVING NEW customer {"customername":"Gary Mehigan","customerAddress":"Flat No:106,Horizons","customerPhoneNumber":6605280901,"customerEmail":"hyndavi@gmail.com","_id":"5c05ac749e64c2fb3572e0bf","_customerid":105}
+2018-12-03T22:21:40.251Z - debug: GET /customer
+2018-12-03T23:06:42.878Z - info: Environment variables loaded.
+2018-12-03T23:06:42.886Z - debug: START routing
+2018-12-03T23:06:42.914Z - debug: END routing
+2018-12-03T23:06:42.915Z - info: Loaded routing.
+2018-12-03T23:06:42.947Z - info: START seeder.
+2018-12-03T23:06:42.951Z - debug: 5 products seeded
+2018-12-03T23:06:42.951Z - info: END Seeder. Sample data read and verified.
+2018-12-03T23:06:42.953Z - debug: 5 orders seeded
+2018-12-03T23:06:42.953Z - info: END Seeder. Sample data read and verified.
+2018-12-03T23:06:42.954Z - debug: 5 customers seeded
+2018-12-03T23:06:42.954Z - info: END Seeder. Sample data read and verified.
+2018-12-03T23:06:42.956Z - debug: 4 orderLineItem seeded
+2018-12-03T23:06:42.956Z - info: END Seeder. Sample data read and verified.
+2018-12-03T23:06:48.758Z - debug: GET /
+2018-12-03T23:06:50.797Z - debug: GET /customer
+2018-12-03T23:06:51.791Z - debug: GET /product
+2018-12-03T23:06:52.530Z - debug: GET /order
+2018-12-03T23:06:54.045Z - debug: GET /order/delete/104
+2018-12-03T23:06:54.046Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T23:06:54.047Z - info: RETURNING VIEW FOR {"_orderid":104,"ordername":"Burger","orderdate":"1/1/2018","shippingAdress":"H.No:78-110,Maryville","deliveryDetails":"Jubiliant foods","_productID":"3","cashOnDelivery":600}
+2018-12-03T23:06:55.130Z - debug: POST /order/delete/104
+2018-12-03T23:06:55.131Z - info: Handling DELETE request [object Object]
+2018-12-03T23:06:55.131Z - info: Handling REMOVING ID=104
+2018-12-03T23:06:55.138Z - debug: GET /order

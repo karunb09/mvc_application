@@ -1,3 +1,7 @@
+/**
+ * Controller for the orders page
+ * @author Sonam Gadekari
+ */
 const express = require('express')
 const api = express.Router()
 const Model = require('../models/order.js')
