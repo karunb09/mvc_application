@@ -4789,3 +4789,52 @@ SyntaxError: Unexpected token <<
 2018-12-01T01:55:38.769Z - debug: GET /product/edit/5
 2018-12-01T01:55:38.771Z - info: Handling GET /edit/:id [object Object]
 2018-12-01T01:55:38.771Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-03T01:53:18.906Z - info: Environment variables loaded.
+2018-12-03T01:53:19.092Z - error: uncaughtException: listen EADDRINUSE :::8081 date=Sun Dec 02 2018 19:53:19 GMT-0600 (Central Standard Time), pid=83388, uid=null, gid=null, cwd=C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder, execPath=C:\Program Files\nodejs\node.exe, version=v10.11.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\app.js], rss=72769536, heapTotal=64827392, heapUsed=31030320, external=18392987, loadavg=[0, 0, 0], uptime=769152
+Error: listen EADDRINUSE :::8081
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at Function.listen (C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533979\Desktop\Veeramachaneni_Lab10LabSortingAndEquals\onlineorder\app.js:111:6)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+2018-12-03T01:53:18.918Z - debug: START routing
+2018-12-03T01:53:18.963Z - debug: END routing
+2018-12-03T01:53:18.963Z - info: Loaded routing.
+2018-12-03T01:53:19.015Z - info: START seeder.
+2018-12-03T01:53:19.022Z - debug: 5 products seeded
+2018-12-03T01:53:19.022Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:19.026Z - debug: 5 orders seeded
+2018-12-03T01:53:19.026Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:19.029Z - debug: 5 customers seeded
+2018-12-03T01:53:19.029Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:19.031Z - debug: 4 orderLineItem seeded
+2018-12-03T01:53:19.031Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:32.842Z - info: Environment variables loaded.
+2018-12-03T01:53:32.853Z - debug: START routing
+2018-12-03T01:53:32.901Z - debug: END routing
+2018-12-03T01:53:32.902Z - info: Loaded routing.
+2018-12-03T01:53:32.960Z - info: START seeder.
+2018-12-03T01:53:32.968Z - debug: 5 products seeded
+2018-12-03T01:53:32.968Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:32.972Z - debug: 5 orders seeded
+2018-12-03T01:53:32.972Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:32.975Z - debug: 5 customers seeded
+2018-12-03T01:53:32.975Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:32.978Z - debug: 4 orderLineItem seeded
+2018-12-03T01:53:32.978Z - info: END Seeder. Sample data read and verified.
+2018-12-03T01:53:36.872Z - debug: GET /
+2018-12-03T01:53:38.626Z - debug: GET /product
+2018-12-03T01:53:39.888Z - debug: GET /product/details/5
+2018-12-03T01:53:39.891Z - info: Handling GET /details/:id [object Object]
+2018-12-03T01:53:39.895Z - info: RETURNING VIEW FOR {"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
+2018-12-03T01:53:42.509Z - debug: GET /product/edit/5
+2018-12-03T01:53:42.510Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T01:53:42.512Z - info: RETURNING VIEW FOR{"_productid":5,"productName":"Fried-Rice","productDescription":"Rice cooked and fried with added tomato, carrot, onions and add sauces like soya, tomato, and chilli","price":150,"productCategory":"Chinese-Food","sellerId":5}
