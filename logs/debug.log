@@ -5396,3 +5396,36 @@ Error: listen EADDRINUSE :::8081
 2018-12-04T01:34:00.616Z - info: RETURNING VIEW FOR{"orderID":701,"lineNumber":1,"productName":"Biryani","quantity":2}
 2018-12-04T01:34:06.118Z - debug: GET /order
 2018-12-04T01:34:15.192Z - debug: GET /
+2018-12-04T01:43:55.008Z - info: Environment variables loaded.
+2018-12-04T01:43:55.018Z - debug: START routing
+2018-12-04T01:43:55.060Z - debug: END routing
+2018-12-04T01:43:55.060Z - info: Loaded routing.
+2018-12-04T01:43:55.104Z - info: START seeder.
+2018-12-04T01:43:55.109Z - debug: 5 products seeded
+2018-12-04T01:43:55.109Z - info: END Seeder. Sample data read and verified.
+2018-12-04T01:43:55.111Z - debug: 5 orders seeded
+2018-12-04T01:43:55.111Z - info: END Seeder. Sample data read and verified.
+2018-12-04T01:43:55.113Z - debug: 5 customers seeded
+2018-12-04T01:43:55.113Z - info: END Seeder. Sample data read and verified.
+2018-12-04T01:43:55.115Z - debug: 4 orderLineItem seeded
+2018-12-04T01:43:55.115Z - info: END Seeder. Sample data read and verified.
+2018-12-04T01:43:55.387Z - debug: GET /
+2018-12-04T01:43:59.445Z - debug: GET /views
+2018-12-04T01:44:07.662Z - debug: GET /views
+2018-12-04T01:44:23.002Z - debug: GET /views
+2018-12-04T01:44:32.664Z - debug: GET /
+2018-12-04T01:44:34.477Z - debug: GET /index.ejs
+2018-12-04T01:44:56.999Z - debug: GET /index.ejs
+2018-12-04T01:44:58.112Z - debug: GET /
+2018-12-04T01:44:59.775Z - debug: GET /
+2018-12-04T01:45:00.581Z - debug: GET /
+2018-12-04T01:45:02.063Z - debug: GET /order
+2018-12-04T01:45:03.024Z - debug: GET /
+2018-12-04T01:45:15.689Z - debug: GET /order
+2018-12-04T01:45:16.851Z - debug: GET /product
+2018-12-04T01:45:18.510Z - debug: GET /customer
+2018-12-04T01:45:19.469Z - debug: GET /orderLineItem
+2018-12-04T01:45:21.091Z - debug: GET /customer
+2018-12-04T01:45:22.190Z - debug: GET /product
+2018-12-04T01:45:24.070Z - debug: GET /orderLineItem
+2018-12-04T01:45:27.038Z - debug: GET /
