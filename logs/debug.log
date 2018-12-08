@@ -6112,3 +6112,29 @@ TypeError: Cannot read property 'query' of undefined
 2018-12-08T18:06:02.642Z - info: UPDATED VALUES: {"lineNumber":"4","productName":"Burger","quantity":"1"}
 2018-12-08T18:06:02.642Z - info: SAVING UPDATED orderLineItem {"_orderID":704,"lineNumber":4,"productName":"Burger","quantity":1}
 2018-12-08T18:06:02.658Z - debug: GET /orderLineItem
+2018-12-08T18:36:21.085Z - info: Environment variables loaded.
+2018-12-08T18:36:21.124Z - debug: START routing
+2018-12-08T18:36:21.196Z - debug: END routing
+2018-12-08T18:36:21.196Z - info: Loaded routing.
+2018-12-08T18:36:21.274Z - info: START seeder.
+2018-12-08T18:36:21.280Z - debug: 5 products seeded
+2018-12-08T18:36:21.280Z - info: END Seeder. Sample data read and verified.
+2018-12-08T18:36:21.300Z - debug: 5 orders seeded
+2018-12-08T18:36:21.300Z - info: END Seeder. Sample data read and verified.
+2018-12-08T18:36:21.306Z - debug: 5 customers seeded
+2018-12-08T18:36:21.306Z - info: END Seeder. Sample data read and verified.
+2018-12-08T18:36:21.311Z - debug: 4 orderLineItem seeded
+2018-12-08T18:36:21.311Z - info: END Seeder. Sample data read and verified.
+2018-12-08T18:36:32.082Z - info: Environment variables loaded.
+2018-12-08T18:36:32.092Z - debug: START routing
+2018-12-08T18:36:32.128Z - debug: END routing
+2018-12-08T18:36:32.128Z - info: Loaded routing.
+2018-12-08T18:36:32.159Z - info: START seeder.
+2018-12-08T18:36:32.166Z - debug: 5 products seeded
+2018-12-08T18:36:32.166Z - info: END Seeder. Sample data read and verified.
+2018-12-08T18:36:32.170Z - debug: 5 orders seeded
+2018-12-08T18:36:32.170Z - info: END Seeder. Sample data read and verified.
+2018-12-08T18:36:32.173Z - debug: 5 customers seeded
+2018-12-08T18:36:32.173Z - info: END Seeder. Sample data read and verified.
+2018-12-08T18:36:32.175Z - debug: 4 orderLineItem seeded
+2018-12-08T18:36:32.175Z - info: END Seeder. Sample data read and verified.
