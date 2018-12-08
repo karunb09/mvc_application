@@ -6,17 +6,19 @@
         <br/>
         <h2>Create a new OrderListItem </h2>
         <br/>
-        
+        <% maxID=0; for (var i=0; i < orderlineitem.query.length; i++) {
+          if(orderlineitem.query[i]._orderID > maxID) { maxID=orderlineitem.query[i]._orderID;   }
+          var age = orderlineitem.query[i].age;}%>
           <div class="content">
             <div>
               <form name="orderLineItem" method="POST" action="/orderLineItem/save">
-  
+
                 <div class="form-group" id=frm>
-                  <label for="orderID">ID</label>
-                  <input type="number" class="form-control" id="orderID" name="orderID" value="">
+                  <label for="_orderID">OrderId</label>
+                  <input type="number" class="form-control" id="_orderID" name="_orderID" value="<%= maxID+1 %>" required readonly>
                 </div>
   
-                <!-- COMMON TO EDIT AND CREATE -->
+                 <!-- COMMON TO EDIT AND CREATE -->
                 <%include partial_edit.ejs%>
   
                   <div class="form-group">

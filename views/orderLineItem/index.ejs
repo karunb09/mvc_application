@@ -4,67 +4,38 @@
 
 <h1>Order Line Page</h1>
 
-<ul>
-    <li><a href="orderLineItem/findall">Find All</a></li>
-    <li><a href="#">findone by id</a></li>
-    <ol>
-        <li>
-          <a href="/orderLineItem/findone/701">http://localhost:8081/orderLineItem/findone/1</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/findone/702">http://localhost:8081/orderLineItem/findone/2</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/findone/703">http://localhost:8081/orderLineItem/findone/3</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/findone/704">http://localhost:8081/orderLineItem/findone/4</a>
-        </li>
-      </ol>
-    <li><a href="orderLineItem/create">Create</a></li>
-    <li><a href="#">Delete</a></li>
-    <ol>
-        <li>
-          <a href="/orderLineItem/delete/701">http://localhost:8081/orderLineItem/delete/1</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/delete/702">http://localhost:8081/orderLineItem/delete/2</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/delete/703">http://localhost:8081/orderLineItem/delete/3</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/delete/704">http://localhost:8081/orderLineItem/delete/4</a>
-        </li>
-      </ol>
-    <li><a href="#">Details:-</a></li>
-    <ol>
-        <li>
-          <a href="/orderLineItem/details/701">http://localhost:8081/orderLineItem/details/1</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/details/702">http://localhost:8081/orderLineItem/details/2</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/details/703">http://localhost:8081/orderLineItem/details/3</a>
-        </li>
-        <li>
-          <a href="/orderLineItem/details/704">http://localhost:8081/orderLineItem/details/4</a>
-        </li>
-      </ol>
-    <li><a href="#">Edit</a></li>
-    <ol>
-    <li>
-        <a href="/orderLineItem/edit/701">http://localhost:8081/orderLineItem/edit/1</a>
-      </li>
-      <li>
-        <a href="/orderLineItem/edit/702">http://localhost:8081/orderLineItem/edit/2</a>
-      </li>
-      <li>
-        <a href="/orderLineItem/edit/703">http://localhost:8081/orderLineItem/edit/3</a>
-      </li>
-      <li>
-        <a href="/orderLineItem/edit/704">http://localhost:8081/orderLineItem/edit/4</a>
-      </li>
-    </ol>
-</ul>
+<div class="col col-md-12 col-lg-10">
+  <a href="orderLineItem/create" class="btn btn-primary new">
+    Create a new order
+  </a>
+  <h2>Recent order entries</h2>
+  <p>There are
+    <%= orderlineitem.query.length %> orders.
+    <br />
+  </p>
+  <% for (var i = orderlineitem.query.length-1; i >= 0; i--) {   
+       %>
+  <div class="panel panel-default">
+    <div class="panel-heading"></div>
+    <div class="text-muted pull-right"></div>
+    <div class="panel-body">
+      <br />
+      <br /> OrderID:
+      <%=  orderlineitem.query[i]._orderID %>
+      <br> LineNumber:
+      <%=orderlineitem.query[i].lineNumber%>
+      <br /> ProductName:
+      <%=orderlineitem.query[i].productName%>
+      <br /> Quantity (No`s):
+      <%=orderlineitem.query[i].quantity%>
+      <br />
+      <br />
+
+      <a href="/orderLineItem/delete/<%= orderlineitem.query[i]._orderID  %>" class="btn btn-danger"> Delete </a>
+      <a href="/orderLineItem/details/<%= orderlineitem.query[i]._orderID %>" class="btn btn-info"> Details </a>
+      <a href="/orderLineItem/edit/<%= orderlineitem.query[i]._orderID %>" class="btn btn-warning"> Edit </a>
+    </div>
+  </div>
+  <%  } %>
+
+</div>

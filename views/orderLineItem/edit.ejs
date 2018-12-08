@@ -6,12 +6,12 @@
     <div class="col col-md-12">
       <h2>Edit Orderlineitem </h2>
       <div class="content">
-        <form method="POST" action="/orderLineItem/save/<%= orderLineItem.orderID %>">
+        <form method="POST" action="/orderLineItem/save/<%= orderLineItem._orderID %>">
           <div class="form-group" id=frm>
-            <label for="orderID">ID</label>
-            <input type="number" class="form-control" id="orderID" name="orderID" value="<%= orderLineItem.orderID %>" required disabled>
+            <label for="_orderID">ID</label>
+            <input type="number" class="form-control" id="_orderID" name="_orderID" value="<%= orderLineItem._orderID %>" required disabled>
           </div>
-          <% var sqft = orderLineItem.orderID %>
+          <% var sqft = orderLineItem._orderID %>
 
             <!-- COMMON TO EDIT AND CREATE -->
             <%include partial_edit.ejs %>

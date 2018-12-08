@@ -4,7 +4,7 @@
 <h2>Confirm deletion of Order</h2>
 <br/>
 <br /> ID:
-<%=  orderLineItem.orderID %>
+<%=  orderLineItem._orderID %>
 <br> Number:
 <%=orderLineItem.lineNumber%>
 <br /> Name:
@@ -19,6 +19,6 @@
             </form>
 
             <br/>
-            <form method="POST" action="/orderLineItem/delete/<%= orderLineItem.orderID %>">
+            <form method="POST" action="/orderLineItem/delete/<%= orderLineItem._orderID %>">
               <input type="submit" value="Delete this item" class="btn btn-danger pull-right" />
             </form>
